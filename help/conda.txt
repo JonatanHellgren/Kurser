@@ -1,0 +1,5 @@
+conda activate -enviroment-
+conda deactivate -enviroment-
+
+To work with Coc
+:CocCommand python.setInterpreter

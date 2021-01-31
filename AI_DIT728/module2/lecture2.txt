@@ -1,0 +1,103 @@
+Recomender system
+    most clear examples are netflix, amazon, spotify and commercial adds
+
+Even in 2015 spent at lot of money on recomendation systems 1
+(1 billion dllars)
+
+The goal is to personalize the task such that every customer get a individual
+recomendation
+
+If we only suggest one book we can only get as high as the average sale rate of
+that book, if we otherwise would find out what book each individual want to
+purchase the most we will be able to sell more. 
+
+To do this we need some sort of information from the user, basically ask them
+questions. 
+But an easier way is to collect the data passively. Either through cookies or
+purchase history. 
+It is common for companies to store purchase logs. 
+We assume that based on what purchases previously have been done is able to
+predict what future purchase is likely.
+
+Outline
+    Object & proxies
+    Lerning to recomendation
+    Recommenders in practice
+    Evaluation and deployment (friday)
+
+Objectives and proxies
+    An objective should encapsulate what we want from our system
+    It should be the subject of evaluation - how well are we doing?
+        profit
+        number of users
+        user engagement
+        user satisfaction
+
+    Delayed objectives
+        Long term or dlayed objectives are hard to optimize
+        Not easy to specify, even in natural language
+        Often har to measure
+        Even harder to optimize. What was the cause?
+
+    Can use rating as proxies
+        They are easy to measure
+        Ratings pertain to a specific product. Important!
+        In contrast, for example, no single movie in Netfilx's service
+        determines profit directly
+
+    Maximizing user ratings
+        How can we recommend products that will be highly rated?
+        Abstraction: First predict ratings, then pick highly rated product
+        We have abstacted significantly
+            Max profit -> max engagement -> max ratings -> predict ratings
+
+    How does AI fit in?
+        Predicting future events is a classical example of AI
+        we look for a personal mapping f between books X and ratings Y
+    
+    Learning from the data
+        We don't know the function f when we start
+        But we can use machine learning for this
+
+    Historical data
+        Storing purchases is trivial 
+        Often we know something about the product, like the genre of the books
+
+    Formalizing recommenders
+
+Content filtering
+    min theta matrix with least squares
+    finding model theta that minimizes error on observed data
+    By far the most common AI/ML stategy today
+    Assumes that we can predict useen values by minimizing the errors on the
+    observed data we already have
+    
+We will not however have data for most on the objects, we are likely to have
+more books then observations. P>N
+To deal with this we will need to add a regularization to our model, to reduce
+variance
+
+Limitations of content filtering
+    A drawback of content filtering is that is relies completetly on having good
+    product features
+    Even if we do have product such features, seperate regressions ignore the
+    fact that many users behave similarly
+
+Two common solutions
+    Content filtering
+        user-product and product-feature data
+        Similar product get similar scores from users
+    Collaborative filtering
+        User-product data only
+        Users with similar histories give similar scores to the same products
+        No theta?
+
+In collaborative filtering 
+    What if we don't have product features X. Can we still predict Y?
+
+Matrix decomposition
+    We still use theta and X, but we no not know either of them, we instead
+    optimize to find them. 
+    Similar to PCA
+
+    

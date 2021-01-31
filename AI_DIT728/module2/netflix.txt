@@ -1,0 +1,29 @@
+1. 
+Netflix uses a method called Cinematch
+Cinematch is basically using pearson correlation to detemine what movies to 
+suggest
+KorBell team of AT&T won with a 8.43% improvement in RMSE
+They combined k-NN with SVD/factorization to acheive this
+found that it was important to incorperate information beyond the rating
+such as what movies a particular user rated
+They developed new innovations for the task that improved axisting filtering
+methods
+
+2.
+Localized neighborhood methods are good a finding localized pairs, however
+since the ratings are sparse this method is hard to implement
+Latent factors are good at fining an overll structure, but bad at localizing 
+closely related objects.
+If we where to attemt extending the decomposition models to encompass the full
+spectrum of relationships, a large f-value is needed, and we can't be sure that
+it wont just capture noise instead. 
+To include what movies a user rated regardless of what rating they gave helped 
+the modeling process. It seem like what a user inteacts with is a very good 
+predictor. 
+Including more global effects helped the model aswell, like the averege rating 
+of an item or average rating of an user. This made it more possible to model 
+if a user enjoyed popular or more niched movies.
+
+3. 
+:wq
+

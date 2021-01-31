@@ -1,0 +1,84 @@
+__PART 1__
+Rewatching the lecture to get notes for the assignment.
+Dag Wendelin, Fredik Johansson, Richard Johansson, Ashgan?
+Several TAs, two on each module
+
+Lecture will give an perspective on AI, talk about of the course and the module.
+
+Turing Machne - 1936 by Alan Turing
+Input tape, Output tape and Memory read/write head
+The beginning of modern computers
+Before the computer was invented the human brain was likened to a telephone
+switch
+"I belive that at the end of the century the use of wors and general educated
+opinion will have altered so much that one will be able to speak of machines
+thinking without expecting to be contradicted" - Alan Turing Computer Machinery
+and Intelligence (1950)
+
+"Every aspect of learning or any other feature of intelligence can in principle
+be so precisely described that a machine can be made to simulate it. An attempt
+will be made to find how to make machines use language, form abstraction and
+concepts, solve kinds of problems now reserved for humans, and improve
+themselves. We think that a significant advance can be made in one or more of
+tthese problems if a carefully selected group of scientists work on in together
+for a summer." John McCarthy Dartmouth Workshop 1956
+
+  They managed to create chess playing AI, but didn't manage to handle language.
+A reson why they failed was since everything was based on human insights, since
+it became an limiting factor since we are not that good at numbers.
+There would be very diffucult to write rules on how a dog looks like. 
+
+So AI didn't succed, but we instead have temendus success in other areas of
+computing. Most stuff we do with computers are pretty basic stuff, mostly
+writing and storing data and sending it to other places. 
+
+Simulation was one more advanced form of computing. Where the laws of physics
+are codded in to a program to run different tests faster and cheaper.
+- A mix between human insight and data. A lot of math.
+
+Signal processing and control systems, also a mix between human insight and data
+and a lot of math. 
+
+Advanced computing - Algorithms
+Like shortest path
+
+Optimization, finding the optimal solution with respect to certain constraints
+
+The succesfull early version of AI that succeded was mostly rule-based-AI
+
+Advanced computing - Data science
+A mixture between AI and statistics
+
+Machine learning-based AI
+capture high-dimensional statistical patterns
+Approch: High dimensional statistics
+Less insight and more data
+
+Alsong as we have pproblem with doing basic things with computers, having
+trouble with connecting to the internet and storing data. There is not natural
+to focus on AI. 
+
+Data science - investigate to understand and predict
+AI - systems that perform "intelligent" tasks
+
+Traditional AI methods
+- Problem-solving: search, local search, adversial search, csp
+- Knowlage, resoning, planning: proposital logic, first-oreder logic, inference,
+  planning/acting knowlage representation
+- Uncertain Knowlage and reasoning: probabillity distribution and Bayes, Baysian
+  networks, inference, Markov chain, Utility theory, Game theory
+- Learning: learning from examples, learning from logical models, learning from
+  probabilistic models, reinforcement learning
+- Communicating, perceiving, acting: NLP, image recognition, robotics
+
+When we talk about AI today we often include many differen forms of advanced
+computing. 
+
+Different application => modeling: AI, advanded and basic methods
+The task becomes to decide what methods should be used for what task. Everything
+should possible not be solved by AI, overkill. This reciures insight about the
+problem. 
+
+__PART 2__
+
+
