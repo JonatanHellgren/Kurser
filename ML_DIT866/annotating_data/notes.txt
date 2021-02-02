@@ -1,0 +1,81 @@
+Types of supervision:
+    Supervised, unsupervised and semisupervised
+    Depends if the data is labeled or not beforehand
+
+Two approaches:
+    top-down: What do I want? What is the purpose?
+    bottom-down: What can I get? From hwere? Using what kind of method?
+Maybe you already have data from withing the organization.
+Or some public data might be available, lots of data are available online
+
+Possibible to scrape data from websites or using open APIs
+    like transforming reviews rom amazon
+
+Beware not all data is freely available, might be copyrighted
+Possibible to instead distribute URLs, but they may dissapear
+
+Assumption in machine learning:
+    We assume that the test data is distributed similarly as the train data
+    the sample is representative if what's true about the sample is also true
+    about the population
+
+Samling bias is a big issue, since the model will also in turn be biased
+
+One way to reduce samling bias is to adjust the dataset with weights or removing
+observations utnil the dataset becomes balanced. 
+
+A good dataset is critical for ML
+desiderata:
+    large
+    representative
+What we end up with may be limited by what we can get
+Discrepancies between training and deployment has an adverse effect on ML systems
+
+## Annotating data
+The main bootle neck for ML might b the need to annotation of the data
+
+By annotating the data manually we try to learn specific domain knowlage from a
+human in to a ML model. 
+
+Tools for annotation:
+    For smaller project excel or a text file migh be enough
+    In the long run, it usually pays of to have specialized tools to tag the
+    data
+
+Vision and text might be the fields where annotation is the most necessary
+
+So I'g going to search the internet for 100 opinions about COVID-19 vaccination
+50 of which that are positive and 50 negative. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

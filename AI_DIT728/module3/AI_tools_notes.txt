@@ -1,0 +1,205 @@
+Certain tools are necesarry when creating an AI.
+
+pre-processing -> training data -> build -> test -> deploy -> feedback
+for a statistical model
+
+Python is the most common language for machine learning, 83% on kaggle
+    scikit-learn
+    PyTorch
+    TensorFlow, Keras
+
+Virtual enviroments
+    Modules are important when using python, however har to maintain different
+    sets since there are different dependencies for each of them
+    VirtualEnv, conda
+
+Jupyter notebook is a easy way to try some things but not a good idea when doing
+more advanced things
+
+Image data
+    image data is not easily stored in 2d matrices, Instead tensors is used.
+
+Most modern machine learning builds heavily on linear algerbra
+matrices and vectors and operations on data are critical
+We expect:
+    Matrix/dot products
+    Slicing/selection
+    insertion, concatenation
+    inversion, tranposition
+
+NumPy 
+    package for mathematical operations in Python
+    Used in tesor, sklearn
+    can also generate random numbers
+
+DataFrames
+    A drawback of pute matrix/tensor representations is that columns and rows 
+    and columns are "anonymous"
+    DataFrames add indices and names, similar to spreadcheats
+
+Pandas
+    Most popular python implementaion of pandas
+    Adds:
+        indexing, multi-indexing, etc
+        SQL-like "groupby" functions
+    Accepted as input by many ML tools, including scikit-learn
+
+Databases
+    Storung databases is a topic for a whole other course
+    However, highly relevant for AI in industry
+
+More genral data
+    more genral data do not have natural tabular representations
+    For example, time series
+
+Or Graphs.
+    Can be represented in different ways, for example a adjacency matrix and
+    adjacency list
+    However they beocme very sparse adjecency matrix, if large graph
+    
+neo4j
+    The best representation of graphs depend on the application
+    Specialized tool like neo4j try to make storing, computing on, and visualize
+    graphs easier
+
+2. Model development
+
+Beginner mistake 1: "One long script"
+    One of the common pitfalls in machine learning programming is the one-long
+    script tendancy
+    Data processing, training and testing written one after another in a single
+    imperative script file
+    Many tutorials follow this format! How can we imporove?
+
+Fit, predicr, score
+    A big devolpment in ML is the fit, predict, score pattern
+    Standardizes common ML workflow
+    fit(x,y): Train model to e.g. predict y from x
+    predict(x): predict y from x
+    score(x,y): Evaluate model on data x,y
+    This is part of your assignment this week, contributes to final grade
+
+fit(x,y)
+    The function fit is responsible for training and storing model parameters
+    that maximize the objective
+    For example, finding the otimal coefficients in OLD or k-NN
+    The arguments x,y may vary dependig on application
+    In unsupervised learning there is no y, but parameters to fit
+
+predict(x)
+    Should take a new data point x and predict the outcome (label/cluster) for it
+    Seperating predict from fit reduces the risk of the common miskake of 
+    non-reusable models
+
+score(x,y)
+    Assigns a score to the prediction made for x in comparison to the label y
+    Seperating score form fit makes it easy to evaluate both training and test 
+    errors and reduces the risk of label leakage
+    used for hyperparameter selection, for example using cross-validation
+
+Scikit-learn
+    Contains standard learning algorithms, toy datasets and more
+    Centered around "estimators"
+    One of the forerunners of "fit, predict, score"
+    Also, transformations, metrics, parameter search
+
+Value of design patterns
+    You don't need to use fit, predict, score always - sometimes it doesn't fit
+    the task
+    Reinforcement learning for example does not fit well into this paradigm. 
+    It relies on "roll-out" rather than signle predictions
+    However, standardizing inputs and putputs reduces the risk of bugs and make 
+    widespread use easier
+
+Data preprocessing
+    Models are sensitive for how we represent the data
+    common to standarddize features to make them have mean 0 and sd 1
+    Standadization is easy in scikit learn
+
+Transformers
+    Scikit-learn implements data preprocessing in transformers
+    They have similar syntax astimators, but fit(x), transform(x)
+    Can be used for standardization,discretization, missing-value imputaion,
+    feature generation, etc
+
+_Differantiable systems_
+
+Empirical Risk Minimization (ERM)
+    Finding parameters theta that minimizes loss L on observed data
+    ERM is by far the most common AI/ML stategy today
+    How to find the optimal theta?
+
+Differentiable systems
+    Deep learning and many other AI tools are based on ERM in differentable systems
+    This means that learning using fradient descent is possible
+
+Empirical risk minimization
+    Consider the linear mode f(x) = /theta x, of a 1d label y
+    Then we can measure mse
+    How do we find the parameters theta^* which minimize Rhat(theta)
+
+We can use Gradient descent (GD)
+    We can use gradient descent to find a local minimim
+    Gradient descent says to move inte direction of the neagtive gradient
+    with step-length /eta
+
+Automating gradient descent
+    GD ha sonly one non-trivial operation - computing the gradient
+    As long as Rhat is a composition of differentiable functions of theta,
+    differentiation is easy exploited in modern ML!
+
+Chain rule and computaion graphs
+    Think of the following system. We call it a computation graph
+
+Automating gradient descent
+    As long as R is a composition od differantiable functions of theta,
+    differentiation is easy - just abuse the chain rule
+
+Why the chain rule matters
+    Computation decomposes neatly
+    We can use the chain rule aslong as the computation graph has no cycles
+
+Deep learning
+    A famous example of this is back-propagation in deep learning
+    Back-popagates clasification error to model parameters
+
+Back-propagation & Deep learning
+    THis has been hugely successful in some areas
+    IMAGENET problem
+    
+Sybolic differentiation
+    If wach component of the graph is simple enough, we can express its gradient
+    analytically as a function of it's arguments
+    If we know this for all nodes in our computation graph, the chain rule gives
+    us gradient descent
+
+Example: Units in deep learning
+    Typicall, units (neurons) in artificial neiral networks are compositions
+    of linear functions and non-linear activations
+
+Symbolic differentiation at scale
+    PyTorch, TensorFlow, Keras
+
+A Breif disclaimer
+    Except in simple problems gradient descnt gives few guarantees of optimality
+    The jury is still mostly out on why deep learning works so well
+    The chain rule can be used also for ex 2nd order methods but what about
+    constrained optimization
+
+_Optimizations tools_
+
+Optimization in general
+    Gradient descent give local optima in unconstrained differentiavle problems
+    In convex problems, it leads to global optima
+
+Example: Fair ML
+    In fair ML, one goal is for different groups to have equal oppurtunity
+    THis may be defined as the constrain of having equal probability of predited
+    succes given the true successful
+
+Optimization tools
+    CVX (cvxpy) and Gurobi (gurobipy)
+    These tools provide a syntax for specifying optimization problems and solvers
+    for solving them
+
+Next week Hardware, deployment and evaluation
