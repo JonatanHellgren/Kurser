@@ -3,30 +3,35 @@ import pandas as pd
 
 
 class knnClassifier:
-    # simple init function, stores the value for k and the metric to use to
+    # simple init function, stores the value for k and the distance to use to
     # measure the distance
-    def __init__(self, k=10, metric="euclidian"):
+    def __init__(
+        self,
+        k=10,
+        distance="euclidian",
+    ):
         self.k = k
-        self.metric = metric
+        self.distance = distance
+        # here we demonstrate the simplicity of switching distance function
+        if self.distance == "euclidian":
+            self.criterion_function = euclidian_dist
+        elif self.distance == "hamiltonian":
+            self.criterion_function = hamiltonian_dist
+        else:
+            raise Exception(f'Unknown distance: {self.distance}')
 
-    # here in fit we save the data in the obejct at load the metric dunction
+    # here in fit we save the data in the obejct at load the distance dunction
     def fit(self, X, y):
         self.X = X.values
         self.y = y.values
-        # as of now we have only implemented euclidan distance, but with this
-        # code it would be easy to inlude several more by just adding more if-statements
-        if self.metric == "euclidian":
-            self.criterion_function = euclidian_dist
-        else:
-            raise Exception(f'Unknown metric: {self.metric}')
 
     # predict classifies each point by looking at it's k closent neighbors
     def predict(self, df):
         pred = np.empty([len(df), 1])  # here we will store the predictions
 
         for it in range(len(df)):
-            row = df.iloc[
-                it, :].values  # take row in data and store it as numpy array
+            # take row in data and store it as numpy array
+            row = df.iloc[it, :].values
             neigh = get_neighbors(self.criterion_function, row, self.X, self.k)
             classes = self.y[neigh]
             unique, counts = np.unique(classes, return_counts=True)
@@ -62,11 +67,18 @@ def euclidian_dist(arr1, arr2):
     return dist
 
 
+# just to show how to add different functions to compute the distance this
+# function is added.
+def hamiltonian_dist(arr1, arr2):
+    return sum(np.abs(arr1 - arr2))
+
+
 # this function camputes all the distances and return the k closest to the input
-def get_neighbors(metric, row, X, k):
+def get_neighbors(distance, row, X, k):
     distances = np.zeros([1, len(X)])
     for it in range(len(X)):
-        distances[0][it] = metric(row, X[it])  # now only calls euclidian_dist
+        distances[0][it] = distance(row,
+                                    X[it])  # now only calls euclidian_dist
     sorted_distances = np.argsort(distances)
-    return sorted_distances[
-        0][:k]  # return the index of the k closest observations
+    # return the index of the k closest observations
+    return sorted_distances[0][:k]

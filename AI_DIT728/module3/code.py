@@ -30,7 +30,7 @@ Yeval = pd.concat([guangzhou, shanghai])["PM_HIGH"]
 Yeval = Yeval.reset_index().drop('index', axis=1)
 
 # initalizing some things for the loop
-max_k = 30
+max_k = 10
 scores = np.zeros([2, max_k])
 
 # here in this loop we will see what value for k acheives the best value on the
