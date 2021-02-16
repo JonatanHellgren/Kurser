@@ -1,0 +1,124 @@
+Natural langueage processing is mayor task in AI research
+Many test like chinease room, touring test
+
+Applications of NLP
+    spamfilters
+    spellcheckers
+    machine translation
+    spoken UIs, dialogue systems
+    (search engines?)
+
+The main difference between language and other types of data
+    discrete
+    structured
+    diverse
+    sparse
+    A mayority of the words will only be observed once, so we get litle training
+    data on many words, ofter new words may occur
+
+typology of tasks in NLP
+    categorization 
+    tagging
+    parsing
+    generation
+
+categorization
+    spam filtring for maybe emails
+    or topic of text
+    possible to have two texts and doing a paired classification
+
+tagging or sequence labeling
+    tagging words with a gramtical category
+
+parsing or stuctured prediction
+    models the gramtical structure of sentances
+    coreference referation
+
+generation
+    translation
+    chatbots
+    image captioning, what to generate description to an image
+
+High-level history of NLP techniques
+    in the early days the rule-based methods dominated 
+        language however turned out to be to complicated
+    in the late 80s NLP research started to focus on data-driven techniques
+    propablistic 1990-200
+    linear models 2000-2015
+    neural models 2015-
+    still lots of rule-based systems in industry
+
+machine learning in NLP research, 2008
+    start with a document
+    tokanize it
+    tagging
+    gramatical analysis
+    look for event processing systems, who certain words are refered to
+
+machine learning in NLP, research 2020
+    big messy neural network
+    then output
+
+why is this change? advantages of neural models
+    more expressive models
+    end-to-end solution feasible
+    building blocks allow us to model naturally
+    transfer learning is more natural (BERT, ELMo, ...)
+
+neural mdoels: challenges
+    tweaking and babysitting
+    training time
+    energy consumption
+    hardware requirements
+    explainability
+    reproducibility
+
+__machine translateion: overview__
+
+machine translation 
+    given the text in a source language, genrate a text in target language
+    one of the main goals of AI, going back at least to the 1940s
+
+the "noisy channel" intuition
+    it is possible to see that a translation isn't written by a native speaker,
+    the translation become a corrupted version
+
+idealized intuition of the translation process
+    before a sentence is translated for a human we map the source laguage as
+    knowlage and then tranlate it
+    the state inbetween is called an interlingua
+
+domain-specific MT systems
+    rule-based and interlingus is impratical for open ended MT, but can be
+    workable in restricted settings
+
+data-driven machine translations systems
+    instead of writing rules, sunce the early 1990, most MT systems are
+    data-driven: they are trained on example texts
+
+parallel text
+    to be able to train translation models we need two versions of the same text
+    to train a translator
+
+examples of sentence-aligned parallel text data
+    first well-known parallel dataset (or parallel corpus) Canadian Hansards,
+    English-French
+    the bible
+
+fundamental idea in neural MT
+    the architecture in neural MT ystems:
+        encoder summarize the information in the source sentence
+        decoder based on the encoding, generate the target-klanguae output in
+        step-by-step fashin
+    thi is called a aoutencoder
+
+
+
+1
+
+
+
+
+
+
+
