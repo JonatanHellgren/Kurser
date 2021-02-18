@@ -1,0 +1,213 @@
+How AI became a part of medicine
+Early AI in medicine: Expert systems
+    store expert information for future browsning when questions occur
+    These systems use logic for inference based on a knowlage base
+
+Mycin(1970)
+    early system to diagnose sever infections
+    65% good suggestions
+    dialoge system
+
+INTERNIST-1(1980's)
+    probabilistic system
+    applied sybolic reasoning, close to neural nets
+    Huge efforst went into coding relations between 500+ diseases and 4000 symptons
+    can assign a probability for each disease
+
+Neural nets in medicine (1990's)
+    prediction for breast cancer
+    only trained on a handful of features
+    idea of neural nets started in the 50's
+
+Drawbacks of earlier methods
+    relied on manually curated knowlege bases, take a long time
+    the probabilistic methods rely on know relations and thus scale poorly
+    eatly nural nets suffered from a lack of data, generalized poorly
+    this makes it hard to update and scale models
+
+__What is diagnostics?__
+
+Diagnostics
+    refers to the task of finding out the cause of some phenomenon, disease
+    causing a symptom
+    Differential diagnosis, is to pick between possible causes
+    By definition based on data 
+    sometime manifested in flowchart documents, sometimes in medical intuition,
+    sometimes in computers
+
+Diagnostic criteria
+    Diagnostic critera specify combinations of signs, symptoms and tests that
+    are used todetermine diagnosis
+    ofter international standards have dozen of criteria
+
+Types of diagnostics
+    clinincal diagnosis
+    laboratory diagnosis
+    radiology diagnosis
+
+Testing 
+    diagnostics are automated with tests
+    can either be passivly collected 
+    or actively collected
+    diagnostic tests should admit some causes and rule out others
+
+model-based tests
+    a statistical test aims to esitma the probability that the assigned label is
+    the right one
+    This could be as simple as a shresholded measurement, but this generalizes
+    poorly to multiple test/symptoms
+
+A simple model naive bayes
+    assume that sympoms are conditinally independent given the disease. This
+    give us the naive bayes model
+    the conditional probabilities can be estimated from data
+    for discrete symptoms, it can be done using a table
+    the naive bayes formula naturally handles missingness in measurements of
+    symptoms/observation
+    Easy to generalize into multiple disease
+
+Kolleri: probabilstic graphical models
+
+Why not just predict D from S?
+    then we have not made any assumptions for the conditional probability 
+    p(X_j|D) or prob for disease P(D)
+    If X_1 in an X-ray image is it better to predict X_1 from D or the other way
+    around?
+    The answer depend on the application
+
+A closer look at INTERNIST-1
+    Was one of the fist syccessful commercial diagnostic support systems
+    Based on Naive bayes model, but heuristic
+        experst estimeasted p(S|D)
+    applied to 500 diases and 4000 symptoms
+    each diases was liked to each manifistation in terms of
+    fequency, evoking strength and importance
+
+Abductive logic in QMR (successor of INTERNIST-1)
+    
+Take-aways
+    diagnostic test will almost never have 100% accuracy
+    when they don't we must trade off specificity and sensitivity
+    Early systems often suggested irrelevant diagnoses
+    We must consider the costs of theses trade-offs
+
+__Opportunities for machine lerning__
+Why now?
+
+Why machine learning now?
+    we are collecting more electornic data now then ever
+    9 times more then 2008 (US)
+    electronic health records (EHR)
+
+Large datasets
+    MIMIC
+        40,000 patiens in ICU
+        domographics, vital signs, laboratoy tests
+    MarketScan
+        230 million patients
+        based on insurance records
+        (licensed)
+
+Standardization
+    medical records are becoming more standardized
+    Example diagnosis and procedure codes(ICD-9, ICD-10)
+
+Advances in machine learning
+    Better algorithms for learning with high-dimensional data
+        learning with L!-regulrization(LASSO)
+        better algorthms for semi-/unsupervised learning
+    Huge advances in image analysis(deep learning)
+    Better, more accessible tools: scikit-learn, TensorFlow,...
+
+Opportunity 1. Improving consistency
+    AI/ML improve consisency for example in pathology
+
+Communication is important
+    Only predicitons are often not enough
+    It is necessary to justify outputs, e.g., usung visualization
+
+2. Imporving speed
+    Medical staff are incredibly time constrained
+    AI may be used to speed up diagnosis either by
+        making the diagnosis autonomously
+        pointing our abnormalities and having physicians confim them
+    THe latter is often more accurrete
+
+Improving documentation and interfaces
+    suggest likely symptoms given the knowlage we have about the patient
+
+3. Exploration
+    machine learning is not limited to known explanations
+        this is in contrast to early expert systems which required hand-coding
+    Instead, features are learned from daota
+
+Pitfalls: Reproducibility
+    Success in the lab does not imply success in the wild
+    The CheXNet model for detectung oneumonia was found to generalize poorly
+    beyond the study cohort
+    correlation != causation
+
+Take-aways 
+    For an AI to have impact in diagnostic it need to beyond
+    reproducible, implementable in clinical practise, efficient
+    AI can not replace pathologists, but can spped up their work
+    Data-driven methods have benefits but also potential pitfalls
+
+__WHy is medicine special?__
+
+Stakes are higher 
+    A correct diagnosis can mean the diffenece between life and death
+    We need:
+        Robust algorithms
+        Checks and balances to detect errors
+        Fair and accountable algorithms
+        Inerpretable outputs
+
+Rationality
+    Every action has a cost. This includes
+        Taking measurements
+        Treating patiens
+    Example: Waiting for test of antibiotic resistance may delay treatment of
+    infection. Perhaps more accurate but to late
+    In medicine, we trade off time, quality of life, mortality, money
+
+Different data
+    Healthcare data rarely come with labels
+        In some cases the best labels are i=unknown
+        In other cases, otainig labels is expensive
+    Sometimes the number of samples is small
+        rare diseases have fixed, small number of patients
+    Lots of missing data, varying time intervals, censored labels
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+STOP_WORD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
