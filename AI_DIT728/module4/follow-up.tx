@@ -1,0 +1,2 @@
+use prior for things that haven't been observed
+use log probabilities for very low probabilities
