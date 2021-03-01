@@ -1,0 +1,3 @@
+tmux a -t MySession 
+tmux new -s NewSession
+tmux kill-ses -t MySession

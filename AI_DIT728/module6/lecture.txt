@@ -1,0 +1,220 @@
+__Game playing systems__
+
+The Mechanical Turk
+    1700s 
+    A machine that apeared to be playing chess
+    A person was accutally sitting in the machine turning the swithches
+    to make it look as if the machine palyed chess.
+
+Chess computers
+    1900s
+    A early priority when computers where first created
+    Though if we beat masters with AI, we would understand AI
+    One thing that we think must be intelecent before might not look as 
+    inteligent after we have constructed it
+
+DoTA
+    2010: OpenAI FIVE
+    beat world champions in DoTA
+    Reinforcement learning
+    No one thought it would be possible 
+    We should not underestimate what deep learning and reinforcment learning 
+    can do when we have unlimited data and simulation possibilities
+
+__Outline__
+Formalizing games
+    zero-sum games
+    tree search
+    games as decision processes
+Learning to play
+    monte-carlo tree search
+        exploration/exploitation
+    Machine learning
+
+Zer0-sum games: Tic-Tac-Toe
+    One player winning implies one player losing
+
+How do we win at games?
+    Games are inherently about actions
+    Our goal is to select actions that improve our chances of winning
+    In most games, our actions change the possible future actions
+    To win, we account for good/bad futues when selecting actions
+
+Branching paths
+    From every possible move, each possbile followin move becomes its branch
+    To play optimally, we must pick the best path.ut which is it?
+
+Formalization: Search trees
+    For each playes move there becomes more and more nodes
+    At some point in the tree an end state is reached
+    A search tree can be used to enumerate possible futures
+    By identifying good futures (wins), we can backtrack 
+    -Which actions do we have to take to get to the good end?
+
+Playing using a search trees
+    A plan is only a plan - you don't control your opponent
+
+Value of state
+    How often does this action lead to victory?
+
+Playing a stationary enviroment
+    Assume for now that your opponent has a fixed, known policy, p
+    for each possible position
+        1. compute the probability of reaching winning states
+            based on the probability of future states
+        2. Execute actions(s) with the highest success rate. 
+
+What if your opponent adapts?
+    If your opponen used to be suboptimal
+    But changes to being optimal, the probabilities of the next states change
+        -and so does your win probability
+
+Minimax optimization
+    To guarantee success agains the best opponent:
+    Manimize the maximum (worst-case) succes of tour opponent
+    Assume thetyou knew the best possible move and that your opponent will
+    play that move. Then proceed as before:
+        Count future success rate of each action, and act accordingly
+    But what is the best move?
+
+Games as decision processes
+    For our purposes, a decision process describes an agent
+        Taking actions A_t
+        according to policy /pi
+        in states S_t, observed through X_t
+        which transistion according to dynamics p(S_t|S_<t, A_<t)
+    Ofthen, we have designated reward R_t, a function of X_t thatt we want to
+    optimize
+
+Example games
+    Actions vary, rewards for winning
+    Fully observed S_t Discrete action space (chess, tic-tac-toe, go)
+    Partially observed S_t "continuous" action space (starcraft, DoTA 2)
+
+Minimax games
+    In two-player games, there are two actors with (potentially) different
+    polocoes pi, mu
+    Let hat{R}(pi, mu) deonte the success rate of pi vs mu
+    Minimax optimization w.r.t pi optimizes
+    minimum probability for pi while maximum for mu
+
+Minimax: Avoid losses
+    Minimax avoids losing to strong opponents
+
+Exhaustive search not always feasible
+    In Tic-Tac-Toe, the number of possible states < 20,000
+    In Chess, this numbe is 10^47
+    We can't always enumerate/evaluate all possible states
+
+Truncating at finite depth
+    We may limit ourselves to looking d steps ahead
+
+Evauating non-terminal nodes
+    For humans, this is wuite natural
+    But how do we encode this knowlage in AI
+
+__Learning to play__
+
+Two different problems with large state spaces
+    1. We can't explote every state
+    -we won't experience everything in feasible time spans
+    2. We can't store the value of each state
+    -A table housing state-value pairs would be too huge
+
+Monte-Carlo tree search
+    Mone-Carlo methods deal with random sampling
+    Instead of searching exhaustively
+    - search based on experiments with randomly selected actions
+    Try playing and remember what happened
+
+Monte-Carlo Tree Search
+    MCTS implements this idea
+    To plan, MCTS repeats the following process
+    selection -> expansion -> simulation -> backpropagation -> selection -> ...
+
+MCTS 1: Selection
+    Selection refers to finding unexplored nodes
+    -state-action pairs that haven't been tried
+    Based on what we know so far, traverse down until an unexplored child node
+    is reached
+    The traversal uses a tree policy for selection
+    - more in this later
+
+Applying what we've learned
+    If we keep selecting/simulating randomly we will not improve
+    The statistics we collect can be used to improve
+        the selection policy
+        The simulation/roll-out policy
+    If we know that an action worked in the past-use it again?
+    How shoudl we balance trying new things?
+
+Greedy policies
+    A greed policy select the best action according to some metric
+    For example, the highest average reward:
+    Problem: this leads to no exploataion
+    THis is good when Q is a very good approximation of value
+
+epsilon-greedy policies
+    An epsilon-greedy policy chooses the greedy action with probability 
+    1-eps, and a random action with prob eps
+    Trades of exploration and axploitation a little
+    Problem: May try an action known to be bad, by chance
+    Can we provably do better?
+
+Bandits
+    Bandits deal with decision making under uncertainty
+    Multi armed bandits
+        Image you have k slotmachines
+        Some have higer win probabilities
+        You want to find the best one, but have to play in order to find out
+        How can you play optimally?
+
+Upper confidence bounds
+    Upper confidence bounds UCB is a popular heuristic
+    Places a w.h.p. bound in the true Q-value:
+        Q(a) \leq Q_t(a) + U_t(a)
+    and act greedily: a_t = argmax Q_t(a) + U_t(a)
+
+Upper confidence trees (UCT)
+    The application of UCB to search trees is called UCT
+
+Fininshing the search
+    MCTS is repeated until sifficient statistics have been gathered
+    Each potential action a has statistics N(a), Q(a)
+    We now choose one action! Typically node with highest N(eta)
+
+Too many states!
+    The problem of many/high dimensional states is common in AI problems
+    - Compare with, e.g., image classification
+    Intuitively, the details of each state matters less, the more information
+    there is. There are similarities
+    As humans we, we recognixe these similarities, and disregatd irrelvant
+    information
+
+ Function approximation 
+    Today we use machine learning to learn the value of states
+    Instead of storing the Q-value of each node in the tree,
+    we let a funtion approximate it
+    It means we can handle larger state spaces
+
+Deep learning
+    In modern AI, this function is a deep neural network
+    During backpropagation, we don't just update counters N, Q, but the
+    parameters of neyral nets predicting Q
+    This means we 
+        A) Don't have to manually encode the quality of actions
+        B) Don't have to explore every state to predict its value
+
+Self play
+    Crucially, requiring no human-designed value function means agens can learn
+    by self-play
+    Different version of the agent play against each other
+
+
+
+
+
+
+
+
+STOP_WORD

@@ -34,7 +34,7 @@ age,workclass,fnlwgt,education,education-num,marital-status,occupation,relations
 32,Private,169240,HS-grad,9,Divorced,Machine-op-inspct,Not-in-family,White,Female,0,0,38,United-States,<=50K
 23,Private,320294,HS-grad,9,Never-married,Exec-managerial,Not-in-family,White,Male,0,0,40,United-States,<=50K
 45,Self-emp-inc,191776,Masters,14,Divorced,Sales,Unmarried,White,Female,25236,0,42,United-States,>50K
-26,Private,212793,HS-grad,9,Never-married,Machine-op-inspct,Not-in-family,White,Male,0,0,40,United-Staes,<=50K
+26,Private,212793,HS-grad,9,Never-married,Machine-op-inspct,Not-in-family,White,Male,0,0,40,United-States,<=50K
 31,Private,178370,HS-grad,9,Divorced,Other-service,Unmarried,White,Female,0,0,99,United-States,>50K
 79,Private,124744,Some-college,10,Married-civ-spouse,Prof-specialty,Other-relative,White,Male,0,0,20,United-States,<=50K
 49,Private,184986,HS-grad,9,Divorced,Other-service,Not-in-family,White,Female,0,0,40,United-States,<=50K
@@ -32560,4 +32560,4 @@ age,workclass,fnlwgt,education,education-num,marital-status,occupation,relations
 23,Private,45317,Some-college,10,Separated,Sales,Own-child,White,Female,0,0,40,United-States,<=50K
 45,Local-gov,215862,Doctorate,16,Married-civ-spouse,Exec-managerial,Husband,White,Male,7688,0,45,United-States,>50K
 25,Private,186925,Some-college,10,Never-married,Other-service,Not-in-family,White,Male,2597,0,48,United-States,<=50K
-t
+

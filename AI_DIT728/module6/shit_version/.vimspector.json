@@ -1,0 +1,17 @@
+{
+    "configurations": {
+        "run": {
+            "adpter": "debugpy",
+            "configuration": {
+                "name": "run",
+                "type": "python",
+                "request": "launch",
+                "protocal": "auto",
+                "stopOnEntry": true,
+                "console": "inegratedTerminal",
+                "program": "~/Kurser/AI_DIT728/module6/shit_version/setup.py",
+                "cwd": "~Kurser/AI_DIT728/module6/shit_version"
+            }
+        }
+    }
+}
