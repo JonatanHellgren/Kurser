@@ -1,11 +1,19 @@
-from subjects import subject
-from places import place
+from subjects import subject, place
 from digital_assistant import digital_assistant
+"""
+Setup for trying the dialogue system, it creates an assistant loads the data
+into the assistant and the initalizes a dialogue
+"""
 
 
 def main():
     mArIa = setup_digital_assistant()
     mArIa.initalize_dialogue()
+
+
+"""
+Setup function for the digital assistant
+"""
 
 
 def setup_digital_assistant():
@@ -16,6 +24,11 @@ def setup_digital_assistant():
     mArIa.add_subject(import_post_offices())
 
     return mArIa
+
+
+"""
+The data for the subject shops
+"""
 
 
 def import_shops():
@@ -43,6 +56,11 @@ def import_shops():
               closing=18))
 
     return shops
+
+
+"""
+The data for the subject resturnats
+"""
 
 
 def import_resturants():
@@ -77,6 +95,11 @@ def import_resturants():
               closing=20))
 
     return resturant
+
+
+"""
+The data for the subject post offices
+"""
 
 
 def import_post_offices():
