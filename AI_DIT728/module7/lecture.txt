@@ -1,0 +1,135 @@
+Dialogue sysyem and question answering
+
+Dag is back!
+
+Distiction between chatbots and digital assistanst
+    chatbots - for general chats
+    Digital assistans - for specific tasks
+    Often rulebased
+
+Properties of human conversation
+    A dialogue is a sequence of turns
+    In spoken dialogue it can be diffucult to know when a turn ends
+
+Speech acts
+    Constatives: committing the speaker to something's being the case
+        (answering, claming, confirming, denying, disagreeing, stating)
+    Directivenes: attempts by the soeaker to get the addressee to do something
+        (advising, asking, forbidding, inviting, ordering, requesting)
+    Commissives: committing the speaker to some future course of action
+        (promising, planning, vowing, betting, opposing)
+    Acknowledgements: express the speaker's attitude regarding the hearer with
+    respect to some social action
+        (apologizing, greeting, thanking, accepting an acknowledgment)
+    Dialogue structure
+        an answer usally follows a question
+    Grounding
+        making sure that the speakers are on the same page ('OKAY')
+    sub-diagloge
+        when a dialogue follows a tangent for a while
+    clarification
+        if a pearson didn't hear or understand something
+
+Other aspects of conversation
+    Initiative in conversation
+        system initiative
+        user-initiative
+        mixed initiative
+
+Infrence and implicature
+    Things are usually said in context which humans picks up 
+
+__Chat bots__
+    used for free conversations
+
+ELIZA
+    bacsic therpist from 1966
+    rulebased, keyword based
+    Higher rank for specific keywords. Prefers response based on most specific
+    keywords
+    Memory based on the word my, sort of remebers it
+
+PARRY 1971
+    Acts as a paranoid person
+    Includes model of metal state stat influences the conversation
+
+ALCE 1995
+    modern version of ELIZA with programming language AIML (AI Markup Lanfuage)
+
+Corpus-based chatbots
+    Based on very large datasets of realconversations
+    Also possible with non-dialogue corpora
+    Respons generation: not rules but single response based on user's last turn
+    (or two)
+
+IR-based chatbots
+    1. Return response to most similar user turn
+    2. Return most similar response
+    Similarity e.g. based on word vector or word embedding
+    Can also use information about user or sentiment
+
+ML-based encoder decoder chatbot
+    use autoencoder for dialogue
+
+Microsoft TAY on Twitter
+    TayTweeted Donald Trump tweets and got banned
+    WE'RE GOING TO BUILD A WALL, AND MEXICO IS GOING TO PAY FOR IT 
+
+__Task-based dialogue systems for digital assistants__
+this will be the assignment
+
+Dialogue system architecture
+    -> speech recognition -> NLP -> Dialogue manager <--> Task manager
+    <- text-to-speech synthesis -> Natural ^ language generation
+    
+    statistical/NN-based : Speech recognition and text-to-speech synthesis
+    text-based dialogue: NLP, Dialogue manager, Natural Language generation
+    Task manager: A database with information that the bot can fetch info
+    Natural Language Understanding: Extracting what a person says,
+        Rule-based or increasingly ML-based
+    commercial dialogue managers are mostly rule-based
+    Natural Language Generation: mostly template-based,
+        possibly learned from delexicalized data (data collected from humans in
+        similar conversations)
+
+Natural language understand (NLU)
+    boil down the information in text to categories
+
+Why dialogue management (DM)?
+    Otherwise the user must give all information in one statement (no dialogue)
+    can use a flow-chart
+        system-initiative
+        no flexibility
+        works in simple cases
+
+Dialogue Management - frame-based
+    FRAME TRAVEL
+    ORIGIN CITY ___
+    DESTINATION CITY ___
+    DEPARTURE TIME ___
+    ARRIVAL TIME ___
+
+Dialogue policy 
+    In principle: determine nect action based on entire previous dialogue
+    simpler: current state of frame and last turns
+    Includer confirmin as well as rejecting possible misunderstandings
+    can be based on ruler or be learned
+
+Dialogue system design
+    study the user and task
+    simulations and prototypes (wizard of OZ-human pretends to be computer)
+    Inerative design
+
+
+
+
+
+
+
+
+
+
+
+
+
+STOP_WORD
