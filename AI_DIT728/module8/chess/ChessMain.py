@@ -4,7 +4,8 @@ displaying the current GameState object
 """
 import pygame as p
 from ChessEngine import GameState, Move
-from AInar import findRandomMove, findBestMove
+from AInar import findRandomMove
+from NNtraining import FEN_to_board
 
 WIDTH = HEIGHT = 800  #512
 DIMENSION = 8  # 8x8 chess board
@@ -15,7 +16,6 @@ IMAGES = {}
 Initalize a global dictonary of images. This will be called exactly once in the
 main
 """
-
 
 def loadImages():
     pieces = [
@@ -40,6 +40,7 @@ def main():
     clock = p.time.Clock()
     screen.fill(p.Color("white"))
     gs = GameState()
+    gs.board = FEN_to_board()
     validMoves = gs.getValidMoves()
     moveMade = False  # flag variable for when a move is made
     animate = False  # flag for when animations is being made
@@ -50,7 +51,7 @@ def main():
     sqSelected = ()  # no square selected initially (tuple (row, col))
     playerClicks = []  # keeps track of player clicks, two tupels
     playerOne = True  # human is white, then this will be True
-    playerTwo = False  # simiar as playerOne but for black
+    playerTwo = True  # simiar as playerOne but for black
     while running:
         isHumanTurn = (gs.whiteToMove and playerOne) or \
             (not gs.whiteToMove and playerTwo)

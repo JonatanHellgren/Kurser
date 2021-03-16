@@ -24,13 +24,13 @@ class GameState():
              ["wR", "wN", "wB", "wQ", "wK", "wB", "wN", "wR"]])
         '''
         self.board = np.array(
-            [["--", "--", "--", "wK", "--", "--", "--", "--"],
+            [["--", "--", "--", "--", "--", "--", "--", "--"],
+             ["wp", "wp", "wp", "wp", "wp", "wp", "wp", "wp"],
              ["--", "--", "--", "--", "--", "--", "--", "--"],
-             ["bp", "--", "--", "--", "--", "--", "--", "--"],
-             ["--", "--", "--", "bK", "--", "--", "--", "--"],
+             ["--", "--", "--", "bK", "--", "wK", "--", "--"],
              ["--", "--", "--", "--", "--", "--", "--", "--"],
              ["--", "--", "--", "--", "--", "--", "--", "--"],
-             ["--", "--", "--", "--", "--", "--", "--", "--"],
+             ["bp", "bp", "bp", "bp", "bp", "bp", "bp", "bp"],
              ["--", "--", "--", "--", "--", "--", "--", "--"]])
         '''
         self.moveFunctions = {
@@ -682,9 +682,12 @@ class Move():
         return False
 
     def getChessNotation(self):
-        return self.getRankFile(self.startRow,
-                                self.startCol) + self.getRankFile(
-                                    self.endRow, self.endCol)
+        piece = self.pieceMoved[1]
+        if piece != 'p':
+            return piece + self.getRankFile(self.endRow, self.endCol)
+        else:
+            return self.getRankFile(self.endRow, self.endCol)
+
 
     def getRankFile(self, r, c):
         return self.colsToFiles[c] + self.rowsToRanks[r]
