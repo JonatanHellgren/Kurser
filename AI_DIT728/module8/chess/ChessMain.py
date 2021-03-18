@@ -17,6 +17,7 @@ Initalize a global dictonary of images. This will be called exactly once in the
 main
 """
 
+
 def loadImages():
     pieces = [
         "wp", "wR", "wN", "wB", "wK", "wQ", "bp", "bR", "bN", "bB", "bK", "bQ"
@@ -36,6 +37,7 @@ grapics
 
 def main():
     p.init()
+    print(p.display.list_modes())
     screen = p.display.set_mode((WIDTH, HEIGHT))
     clock = p.time.Clock()
     screen.fill(p.Color("white"))
