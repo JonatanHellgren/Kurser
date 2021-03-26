@@ -20,7 +20,7 @@ def time_scripts(args, ks):
 
 
 if __name__ == "__main__":
-    ks = [1, 2, 4, 8, 16, 32]
+    ks = [1, 2, 3, 4, 5, 6, 7, 8] #[1, 2, 4, 8, 16, 32]
 
     parser = argparse.ArgumentParser(description='Plots the sppedup for a script when increasing the number of threads')
     parser.add_argument('--script', '-s',
