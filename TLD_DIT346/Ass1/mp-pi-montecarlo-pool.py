@@ -20,7 +20,7 @@ def sample_pi(n):
 def compute_pi(args):
     random.seed(1)
     n = int(args.steps / args.workers)
-    
+
     p = multiprocessing.Pool(args.workers)
     s = p.map(sample_pi, [n]*args.workers)
 
@@ -38,7 +38,7 @@ if __name__ == "__main__":
                         type = int,
                         help='Number of parallel processes')
     parser.add_argument('--steps', '-s',
-                        default='10000',
+                        default='1000000',
                         type = int,
                         help='Number of steps in the Monte Carlo simulation')
     args = parser.parse_args()
