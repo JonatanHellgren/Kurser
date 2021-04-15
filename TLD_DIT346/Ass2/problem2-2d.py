@@ -6,6 +6,7 @@
 #
 import logging
 import argparse
+import multiprocessing
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_blobs
@@ -24,15 +25,27 @@ def nearestCentroid(datum, centroids):
     dist = np.linalg.norm(centroids - datum, axis=1)
     return np.argmin(dist), np.min(dist)
 
+def nearestCentroids(data, c, cluster_sizes, variation, ind):
+    for i in ind:
+        cluster, dist = nearestCentroid(data[i],centroids)
+        c[i] = cluster
 
-def kmeans(k, data, nr_iter = 100):
+        acquire lock cluster_sizes[cluster]
+        cluster_sizes[cluster] += 1
+        release lock cluster_sizes[cluster]
+
+        acquire lock variation[cluster]
+        variation[cluster] += dist**2
+        release lock variation[cluster]
+
+def kmeans(k, data, nr_iter = 100, workers):
     N = len(data)
+    n = N / workers
 
     # Choose k random data points as centroids
     centroids = data[np.random.choice(np.array(range(N)),size=k,replace=False)]
     logging.debug("Initial centroids\n", centroids)
 
-    N = len(data)
 
     # The cluster index: c[i] = j indicates that i-th datum is in j-th cluster
     c = np.zeros(N, dtype=int)
@@ -51,11 +64,17 @@ def kmeans(k, data, nr_iter = 100):
         variation = np.zeros(k)
         cluster_sizes = np.zeros(k, dtype=int)        
         start_time = time.time()
-        for i in range(N):
-            cluster, dist = nearestCentroid(data[i],centroids)
-            c[i] = cluster
-            cluster_sizes[cluster] += 1
-            variation[cluster] += dist**2
+
+        Processes_ = [multiprocessing.Process(
+            target=nearestCentroids, 
+            args = (data, c, cluster_sizes, variation, ind = range(i*n, (i+1)*n)))
+                      for i in range(workers)]
+
+        for p in Processes_:
+            p.start()
+
+        for p in Processes_:
+            p.join()
 
         # update the time taken
         end_time = time.time()
@@ -94,7 +113,7 @@ def computeClustering(args):
     start_time = time.time()
     #
     # Modify kmeans code to use args.worker parallel threads
-    total_variation, assignment, t1, t2 = kmeans(args.k_clusters, X, nr_iter = args.iterations)
+    total_variation, assignment, t1, t2 = kmeans(args.k_clusters, X, nr_iter = args.iterations, args.workers)
     #
     #
     end_time = time.time()
