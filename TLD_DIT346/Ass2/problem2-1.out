@@ -1,12 +1,6 @@
- Steps	Seconds	Average	Threads
-151000	0.5	306515	1
- Steps	Seconds	Average	Threads
-248000	0.7	377362	2
- Steps	Seconds	Average	Threads
-1168000	2.9	408545	4
- Steps	Seconds	Average	Threads
-113992000	259.7	438974	8
- Steps	Seconds	Average	Threads
-672000	1.5	458493	16
- Steps	Seconds	Average	Threads
-1248000	2.7	457858	32
+1 214.4426896379168
+2 327.58741983445736
+4 494.65225455806984
+8 549.9998580369886
+16 578.37666223999
+32 603.1767751357825

@@ -1,0 +1,68 @@
+Lecture content
+    - Computational problems with kriging
+    - Gaussian Markov random fields
+    - Pattern recognition (LDA, QDA)
+    - Image moments
+
+Statistical model
+    Y_i = B(s_i) beta + Z(s_i) + epsilon_i 
+        s_i is the location of the pixel
+        B is function vale and Z specifies random field
+        
+    Data Y = (Y_1, ..., Y_N) is normally distibuted
+
+Problems with kriging
+    Kriging scales poorly, will become infeasaible for larger datasets
+    Memory to stor covariance matrix scales O(N^2)
+    and the computation time for the krigin predictor scales as O(N^3)
+
+    For an image of size 2500 x 2500 we need 20 years and 20 gb
+
+Sparse Matrix
+    A solution tothe size of the matix is to work with sparse matrix
+    Here memory scales as O(N)
+    And computation scales as O(N^(3/2))
+
+    Possible solutions:
+        Force Covariance matrix Sigma to be sparse, This forces independen between variables
+        Forse the precision matrix Q = inv(Sigma) to be sparse.
+
+Conditional independence
+    Def:
+    A and B are conditionally independent given C iff conditioned on C, A and B are independent
+    pi(A,B|C) = pi(A|C) * pi(B|C)
+
+    Conditional independence is represented with an udirected graph G = (V, E)
+    where V is the set of verices/nodes and E is the set of edges in the graph
+
+    The neighbours of a node i are all nodes in G having an edge to i
+    i.e N_i = {j in V: (i, j) in E}
+
+Gausian Markov random field
+    a distribution where we can skip many of the computations if the nodes aren't connected with a vertice/node
+
+Simulating from a GMRF
+    1. compute Cholesky factorization Q = LL'
+    2. solve L'x = z, where z is Normal(0, I)
+    So x = inv(L')z
+    Then x is a zero mena GMRF wih precision matrix Q
+
+Conditional distibutions
+    Def: Let A subset of V, the subgraph G^A is the graph restricted to A.
+     - Remove all ndoes not belonging to A 
+     - Remove all edges where a least one node is not A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+STOP_WORD

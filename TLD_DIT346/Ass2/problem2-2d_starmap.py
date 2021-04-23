@@ -27,20 +27,6 @@ def nearestCentroid(datum, centroids):
     #print(dist)
     return np.argmin(dist), np.min(dist)
 
-def chunk_computation(chunk, centroids, k):
-    # Assign data points to nearest centroid
-    c = []
-    variation = np.zeros(k)
-    cluster_sizes = np.zeros(k, dtype=int)
-
-    for datum in chunk:
-        cluster, dist = nearestCentroid(datum, centroids)
-        c.append(cluster)
-        cluster_sizes[cluster] += 1
-        variation[cluster] += dist**2
-
-    return np.array(c, dtype = 'int'), cluster_sizes, variation
-
 
 def kmeans(k, data, workers,  nr_iter = 100):
     N = len(data)
@@ -49,73 +35,89 @@ def kmeans(k, data, workers,  nr_iter = 100):
     centroids = data[np.random.choice(np.array(range(N)),size=k,replace=False)]
     logging.debug("Initial centroids\n", centroids)
 
-    data_split = np.array_split(data, workers)
+    #data_split = np.array_split(data, workers)
+
+    # The cluster index: c[i] = j indicates that i-th datum is in j-th cluster
+    c = np.zeros(N, dtype=int)
 
     logging.info("Iteration\tVariation\tDelta Variation")
     total_variation = 0.0
 
+    # variables to store the total time taken by the loops that iterates over every data point
+    t1 = 0
+    t2 = 0
 
     for j in range(nr_iter):
         logging.debug("=== Iteration %d ===" % (j+1))
 
-        with Pool(processes = workers) as pool:
-            output = pool.starmap(chunk_computation,
-                                  [(chunk, centroids, k) for chunk in data_split])
+        # Assign data points to nearest centroid
+        variation = np.zeros(k)
+        cluster_sizes = np.zeros(k, dtype=int)        
+        start_time = time.time()
 
-        c = output[0][0]
-        cluster_sizes = output[0][1]
-        variation = output[0][2]
-        for o in output[1:]:
-            c = np.concatenate((c, o[0]), axis = 0)
-            cluster_sizes = np.add(cluster_sizes, o[1])
-            variation = np.add(variation, o[2])
+        pool = Pool(processes = workers)
 
+        result = pool.starmap(nearestCentroid,
+                              [(d, centroids) for d in data])
+
+        for i, r in enumerate(result):
+            c[i] = r[0]
+            cluster_sizes[r[0]] += 1
+            variation[r[0]] += r[1]**2
+
+        # update the time taken
+        end_time = time.time()
+        t1 += end_time - start_time
 
         delta_variation = -total_variation
-        total_variation = sum(variation)
+        total_variation = sum(variation) 
         delta_variation += total_variation
         logging.info("%3d\t\t%f\t%f" % (j, total_variation, delta_variation))
 
+        # Recompute centroids
+        start_time = time.time()
         centroids = np.zeros((k,2)) # This fixes the dimension to 2
         for i in range(N):
-            centroids[c[i]] += data[i]
+            centroids[c[i]] += data[i]        
+        end_time = time.time()
+        t2 += end_time - start_time
         centroids = centroids / cluster_sizes.reshape(-1,1)
-
+        
         logging.debug(cluster_sizes)
         logging.debug(c)
         logging.debug(centroids)
-
-    return total_variation, c
+    
+    return total_variation, c, t1, t2
 
 
 def computeClustering(args):
     if args.verbose:
         logging.basicConfig(format='# %(message)s',level=logging.INFO)
-    if args.debug:
+    if args.debug: 
         logging.basicConfig(format='# %(message)s',level=logging.DEBUG)
 
-
+    
     X = generateData(args.samples, args.classes)
 
     start_time = time.time()
     #
     # Modify kmeans code to use args.worker parallel threads
-    total_variation, assignment = kmeans(args.k_clusters, X, args.workers, nr_iter = args.iterations)
+    total_variation, assignment, t1, t2 = kmeans(args.k_clusters, X, args.workers, nr_iter = args.iterations)
     #
     #
     end_time = time.time()
     logging.info("Clustering complete in %3.2f [s]" % (end_time - start_time))
-    #print(f"Total variation {total_variation}")
-
-    print(f'{args.workers}\t {end_time-start_time}' )
+    logging.info("Total time for first loop  %3.2f [s]" % t1)
+    logging.info("Total time for second loop  %3.2f [s]" % t2)
+    print(f"Total variation {total_variation}")
 
     if args.plot: # Assuming 2D data
         fig, axes = plt.subplots(nrows=1, ncols=1)
         axes.scatter(X[:, 0], X[:, 1], c=assignment, alpha=0.2)
         plt.title("k-means result")
+        #plt.show()        
         fig.savefig(args.plot)
         plt.close(fig)
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
@@ -152,6 +154,5 @@ if __name__ == "__main__":
                         action='store_true',
                         help='Print debugging output')
     args = parser.parse_args()
-
     computeClustering(args)
 
