@@ -31,17 +31,25 @@ class summary_statistics(MRJob):
         # to compute the standard deviation we need the values squared
         v2 = [val*val for val in v]
 
+
         # initalizing and filling the the bins for the histogram
+        bin_size = (7.2 - 3.1)/10
+        bin_limits = [3.1 + bin_size * it for it in range(11)]
         bins = [0] * 10
         for val in v:
-            i = int(val)
-            bins[i] += 1
+            for it in range(10):
+                if bin_limits[it] < val and val < bin_limits[it+1]:
+                    bins[it] += 1
 
-        yield ('hist', bins)
+
         yield ('min', min(v))
         yield ('max', max(v))
         yield ('mean', sum(v)/length)
         yield ('std', (sum(v), sum(v2), length))
+        yield ('hist', bins)
+        
+        #yield ('values', v)
+
 
 
     """
@@ -49,12 +57,11 @@ class summary_statistics(MRJob):
     yield each respective key summarised
     """
     def reducer(self, key, value):
-        if key == 'hist':
-            bins = [0] * 10
-            for val in value:
-                for i, v in enumerate(val):
-                    bins[i] += v
-            yield('hist', bins)
+
+        self.min_value = None
+        self.max_value = None
+
+
 
         if key == 'min':
             self.min_value = min(value)
@@ -89,6 +96,17 @@ class summary_statistics(MRJob):
             E_v2 = sum_v2/length
 
             yield('std', (E_v2 - E_v * E_v) ** (1/2))
+
+        elif key == 'hist' :#and self.min_value != None and self.max_value != None:
+            bins = [0] * 10
+            for v in value:
+                for it in range(10):
+                    bins[it] += v[it]
+
+            yield('hist', bins)
+
+
+
 
 
 if __name__ == "__main__":

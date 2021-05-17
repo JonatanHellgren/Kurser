@@ -90,10 +90,10 @@ D = squareform(pdist(sample_ind));
 nugget = params.sigma_e^2;
 D = D + diag(ones([1,n_obs]) * nugget);
 Sigma = matern_covariance(D, sigma, kappa, nu);
-betas_gls = (B' * inv(Sigma) * B) \ (B' * inv(Sigma) * Y);
+betas_gls = (B \ Sigma * B') \ (B \ Sigma * Y);
 
 Sigma_est = matern_covariance(D, params.sigma, params.kappa, params.nu);
-betas_gls_est = (B' * inv(Sigma_est) * B) \ (B' * inv(Sigma_est) * Y);
+betas_gls_est = (B' \ Sigma_est * B) \ (B' \ Sigma_est * Y);
 
 %%
 clf
@@ -132,7 +132,7 @@ scatter(loc(ind_o, 1), loc(ind_o, 2), c)
 %%
 params_ml = cov_ml_est(Y, 'matern', sample_ind);
 Sigma_est_ml = matern_covariance(D, params_ml.sigma, params_ml.kappa, params_ml.nu);
-betas_ml_est = (B' * inv(Sigma_est) * B) \ (B' * inv(Sigma_est) * Y);
+betas_ml_est = (B' \ Sigma_est * B) \ (B' \ Sigma_est * Y);
 
 nugget = params_ml.sigma_e^2;
 Sigma_op = matern_covariance(D_kriging, params_ml.sigma, params_ml.kappa, params_ml.nu);
@@ -144,7 +144,7 @@ mu = betas_ml_est(1) * 1 + betas_ml_est(2) * loc(ind,1);
 mu_o = mu(1:n_obs);
 mu_p = mu(n_obs+1:end);
 
-mu_p = mu_p + Sigma_p' * inv(Sigma_o) * (residuals);
+mu_p = mu_p + Sigma_p' \ Sigma_o * (residuals);
 
 
 est = [Y; mu_p];

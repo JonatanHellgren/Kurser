@@ -1,0 +1,92 @@
+Prefix(:=<http://www.chalmers.se/kemp/ontologies/2021/DAT346#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.chalmers.se/kemp/ontologies/2021/DAT346>
+
+Declaration(Class(:Course))
+Declaration(Class(:MemberOfStaff))
+Declaration(Class(:Person))
+Declaration(Class(:Project))
+Declaration(Class(:Researcher))
+Declaration(Class(:Student))
+Declaration(Class(:Teacher))
+Declaration(ObjectProperty(:employedOn))
+Declaration(ObjectProperty(:examiner))
+Declaration(ObjectProperty(:registeredOn))
+Declaration(DataProperty(:code))
+Declaration(DataProperty(:forename))
+Declaration(DataProperty(:projectName))
+Declaration(DataProperty(:surname))
+############################
+#   Object Properties
+############################
+
+# Object Property: :employedOn (:employedOn)
+
+ObjectPropertyDomain(:employedOn :Researcher)
+ObjectPropertyRange(:employedOn :Project)
+
+# Object Property: :examiner (:examiner)
+
+ObjectPropertyDomain(:examiner :Teacher)
+ObjectPropertyRange(:examiner :Course)
+
+# Object Property: :registeredOn (:registeredOn)
+
+ObjectPropertyDomain(:registeredOn :Student)
+ObjectPropertyRange(:registeredOn :Course)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: :code (:code)
+
+DataPropertyDomain(:code :Course)
+DataPropertyRange(:code xsd:string)
+
+# Data Property: :forename (:forename)
+
+DataPropertyDomain(:forename :Person)
+DataPropertyRange(:forename xsd:string)
+
+# Data Property: :projectName (:projectName)
+
+DataPropertyDomain(:projectName :Project)
+DataPropertyRange(:projectName xsd:string)
+
+# Data Property: :surname (:surname)
+
+DataPropertyDomain(:surname :Person)
+DataPropertyRange(:surname xsd:string)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: :MemberOfStaff (:MemberOfStaff)
+
+SubClassOf(:MemberOfStaff :Person)
+
+# Class: :Researcher (:Researcher)
+
+SubClassOf(:Researcher :MemberOfStaff)
+
+# Class: :Student (:Student)
+
+SubClassOf(:Student :Person)
+
+# Class: :Teacher (:Teacher)
+
+SubClassOf(:Teacher :MemberOfStaff)
+
+
+)

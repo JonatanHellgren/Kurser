@@ -1,0 +1,726 @@
+:location rdf:type :Location ;
+:placeName 'locationLabel' ;
+:countryName 'countryLabel'.
+:Q4348917 rdf:type :Location ;
+:placeName 'Norra Djurgården' ;
+:countryName 'Sweden'.
+:Q41778642 rdf:type :Location ;
+:placeName 'British Museum' ;
+:countryName 'United Kingdom'.
+:Q183 rdf:type :Location ;
+:placeName 'Germany' ;
+:countryName 'Germany'.
+:Q25287 rdf:type :Location ;
+:placeName 'Gothenburg' ;
+:countryName 'Sweden'.
+:Q2167 rdf:type :Location ;
+:placeName 'Lund' ;
+:countryName 'Sweden'.
+:Q1754 rdf:type :Location ;
+:placeName 'Stockholm' ;
+:countryName 'Sweden'.
+:Q656 rdf:type :Location ;
+:placeName 'Saint Petersburg' ;
+:countryName 'Russia'.
+:Q25286 rdf:type :Location ;
+:placeName 'Uppsala' ;
+:countryName 'Sweden'.
+:Q179815 rdf:type :Location ;
+:placeName 'Durham' ;
+:countryName 'United Kingdom'.
+:Q3646335 rdf:type :Location ;
+:placeName 'Vasastaden' ;
+:countryName 'Sweden'.
+:Q49111 rdf:type :Location ;
+:placeName 'Cambridge' ;
+:countryName 'United States of America'.
+:Q350 rdf:type :Location ;
+:placeName 'Cambridge' ;
+:countryName 'United Kingdom'.
+:Q1707 rdf:type :Location ;
+:placeName 'Kiel' ;
+:countryName 'Germany'.
+:Q1772186 rdf:type :Location ;
+:placeName 'Kruununhaka' ;
+:countryName 'Finland'.
+:Q26793 rdf:type :Location ;
+:placeName 'Bergen' ;
+:countryName 'Norway'.
+:Q47887 rdf:type :Location ;
+:placeName 'Nijmegen' ;
+:countryName 'Netherlands'.
+:Q3150 rdf:type :Location ;
+:placeName 'Jena' ;
+:countryName 'Germany'.
+:Q585 rdf:type :Location ;
+:placeName 'Oslo' ;
+:countryName 'Norway'.
+:Q38511 rdf:type :Location ;
+:placeName 'Turku' ;
+:countryName 'Finland'.
+:Q1781556 rdf:type :Location ;
+:placeName 'Gärdet' ;
+:countryName 'Sweden'.
+:Q10719196 rdf:type :Location ;
+:placeName 'Wallingatan' ;
+:countryName 'Sweden'.
+:Q26476 rdf:type :Location ;
+:placeName 'Sundsvall' ;
+:countryName 'Sweden'.
+:Q482055 rdf:type :Location ;
+:placeName 'Acton' ;
+:countryName 'Australia'.
+:Q298489 rdf:type :Location ;
+:placeName 'Östermalm' ;
+:countryName 'Sweden'.
+:Q84 rdf:type :Location ;
+:placeName 'London' ;
+:countryName 'United Kingdom'.
+:Q926728 rdf:type :Location ;
+:placeName 'Bromma' ;
+:countryName 'Sweden'.
+:Q3114 rdf:type :Location ;
+:placeName 'Canberra' ;
+:countryName 'Australia'.
+:Q10725885 rdf:type :Location ;
+:placeName 'Änggården' ;
+:countryName 'Sweden'.
+:Q25579 rdf:type :Location ;
+:placeName 'Umeå' ;
+:countryName 'Sweden'.
+:Q26515 rdf:type :Location ;
+:placeName 'Östersund' ;
+:countryName 'Sweden'.
+:Q32253035 rdf:type :Location ;
+:placeName 'Huddinge' ;
+:countryName 'Sweden'.
+:Q26345 rdf:type :Location ;
+:placeName 'Kalmar' ;
+:countryName 'Sweden'.
+:Q123766 rdf:type :Location ;
+:placeName 'Charlottesville' ;
+:countryName 'United States of America'.
+:Q265682 rdf:type :Location ;
+:placeName 'Vadstena' ;
+:countryName 'Sweden'.
+:Q5242576 rdf:type :Location ;
+:placeName 'Universitetsholmen' ;
+:countryName 'Sweden'.
+:Q26262688 rdf:type :Location ;
+:placeName 'University of Leeds Campus' ;
+:countryName 'United Kingdom'.
+:Q2211 rdf:type :Location ;
+:placeName 'Malmö' ;
+:countryName 'Sweden'.
+:Q26152 rdf:type :Location ;
+:placeName 'Växjö' ;
+:countryName 'Sweden'.
+:Q10683761 rdf:type :Location ;
+:placeName 'Sundbybergs stad' ;
+:countryName 'Sweden'.
+:Q150120 rdf:type :Location ;
+:placeName 'Bloomsbury' ;
+:countryName 'United Kingdom'.
+:Q213465 rdf:type :Location ;
+:placeName 'Guildford' ;
+:countryName 'United Kingdom'.
+:Q23169 rdf:type :Location ;
+:placeName 'Oxfordshire' ;
+:countryName 'United Kingdom'.
+:Q34217 rdf:type :Location ;
+:placeName 'Oxford' ;
+:countryName 'United Kingdom'.
+:Q25413 rdf:type :Location ;
+:placeName 'Linköping' ;
+:countryName 'Sweden'.
+:Q21166 rdf:type :Location ;
+:placeName 'Skövde' ;
+:countryName 'Sweden'.
+:Q25789 rdf:type :Location ;
+:placeName 'Karlskrona' ;
+:countryName 'Sweden'.
+:Q26937 rdf:type :Location ;
+:placeName 'Kristianstad' ;
+:countryName 'Sweden'.
+:Q25457 rdf:type :Location ;
+:placeName 'Karlstad' ;
+:countryName 'Sweden'.
+:Q54339 rdf:type :Location ;
+:placeName 'Trollhättan' ;
+:countryName 'Sweden'.
+:Q25724 rdf:type :Location ;
+:placeName 'Norrköping' ;
+:countryName 'Sweden'.
+:Q26040 rdf:type :Location ;
+:placeName 'Borås' ;
+:countryName 'Sweden'.
+:Q25732 rdf:type :Location ;
+:placeName 'Örebro' ;
+:countryName 'Sweden'.
+:Q26521 rdf:type :Location ;
+:placeName 'Halmstad' ;
+:countryName 'Sweden'.
+:Q2523431 rdf:type :Location ;
+:placeName 'Stadshagen' ;
+:countryName 'Sweden'.
+:Q99438089 rdf:type :Location ;
+:placeName 'Duke University campus' ;
+:countryName 'United States of America'.
+:Q1044419 rdf:type :Location ;
+:placeName 'Carolina Rediviva' ;
+:countryName 'Sweden'.
+:Q21168 rdf:type :Location ;
+:placeName 'Varberg' ;
+:countryName 'Sweden'.
+:Q1773 rdf:type :Location ;
+:placeName 'Riga' ;
+:countryName 'Latvia'.
+:Q18125 rdf:type :Location ;
+:placeName 'Manchester' ;
+:countryName 'United Kingdom'.
+:Q1445185 rdf:type :Location ;
+:placeName 'Ramlösa' ;
+:countryName 'Sweden'.
+:Q1781652 rdf:type :Location ;
+:placeName 'Midsommarkransen' ;
+:countryName 'Sweden'.
+:Q340 rdf:type :Location ;
+:placeName 'Montreal' ;
+:countryName 'Canada'.
+:Q10670072 rdf:type :Location ;
+:placeName 'Skeppsholmen' ;
+:countryName 'Sweden'.
+:Q176 rdf:type :Location ;
+:placeName 'Quebec' ;
+:countryName 'Canada'.
+:Q25415 rdf:type :Location ;
+:placeName 'Jönköping' ;
+:countryName 'Sweden'.
+:Q36405 rdf:type :Location ;
+:placeName 'Aberdeen' ;
+:countryName 'United Kingdom'.
+:Q207350 rdf:type :Location ;
+:placeName 'Rehovot' ;
+:countryName 'Israel'.
+:Q1468648 rdf:type :Location ;
+:placeName 'Georgetown' ;
+:countryName 'United States of America'.
+:Q1218 rdf:type :Location ;
+:placeName 'Jerusalem' ;
+:countryName 'Israel'.
+:Q3274356 rdf:type :Location ;
+:placeName 'Angered' ;
+:countryName 'Sweden'.
+:Q749 rdf:type :Location ;
+:placeName 'Groningen' ;
+:countryName 'Netherlands'.
+:Q10690 rdf:type :Location ;
+:placeName 'Cardiff' ;
+:countryName 'United Kingdom'.
+:Q34370 rdf:type :Location ;
+:placeName 'Rotterdam' ;
+:countryName 'Netherlands'.
+:Q25412 rdf:type :Location ;
+:placeName 'Västerås' ;
+:countryName 'Sweden'.
+:Q1198 rdf:type :Location ;
+:placeName 'North Rhine-Westphalia' ;
+:countryName 'Germany'.
+:Q2742 rdf:type :Location ;
+:placeName 'Münster' ;
+:countryName 'Germany'.
+:Q182923 rdf:type :Location ;
+:placeName 'Stirling' ;
+:countryName 'United Kingdom'.
+:Q504114 rdf:type :Location ;
+:placeName 'Guelph' ;
+:countryName 'Canada'.
+:Q23154 rdf:type :Location ;
+:placeName 'Bristol' ;
+:countryName 'United Kingdom'.
+:Q26268 rdf:type :Location ;
+:placeName 'Luleå' ;
+:countryName 'Sweden'.
+:Q7230430 rdf:type :Location ;
+:placeName 'Porsön' ;
+:countryName 'Sweden'.
+:Q2652407 rdf:type :Location ;
+:placeName 'Sé e São Pedro' ;
+:countryName 'Portugal'.
+:Q863050 rdf:type :Location ;
+:placeName 'Cincinnati Museum Center at Union Terminal' ;
+:countryName 'United States of America'.
+:Q1803674 rdf:type :Location ;
+:placeName 'AlbaNova' ;
+:countryName 'Sweden'.
+:Q2966 rdf:type :Location ;
+:placeName 'Heidelberg' ;
+:countryName 'Germany'.
+:Q202408 rdf:type :Location ;
+:placeName 'Svalöv' ;
+:countryName 'Sweden'.
+:Q935702 rdf:type :Location ;
+:placeName 'Oban' ;
+:countryName 'United Kingdom'.
+:Q391948 rdf:type :Location ;
+:placeName 'Millport' ;
+:countryName 'United Kingdom'.
+:Q2974822 rdf:type :Location ;
+:placeName 'Cité scientifique' ;
+:countryName 'France'.
+:Q5455633 rdf:type :Location ;
+:placeName 'Fitzherbert' ;
+:countryName 'New Zealand'.
+:Q129153 rdf:type :Location ;
+:placeName 'Haga' ;
+:countryName 'Sweden'.
+:Q4117115 rdf:type :Location ;
+:placeName 'Flemingsberg' ;
+:countryName 'Sweden'.
+:Q465811 rdf:type :Location ;
+:placeName 'National Mall' ;
+:countryName 'United States of America'.
+:Q13360574 rdf:type :Location ;
+:placeName 'Matara' ;
+:countryName 'Sri Lanka'.
+:Q6662 rdf:type :Location ;
+:placeName 'Cesena' ;
+:countryName 'Italy'.
+:Q50195 rdf:type :Location ;
+:placeName 'Imola' ;
+:countryName 'Italy'.
+:Q130191 rdf:type :Location ;
+:placeName 'Norwich' ;
+:countryName 'United Kingdom'.
+:Q13364 rdf:type :Location ;
+:placeName 'Ravenna' ;
+:countryName 'Italy'.
+:Q79848 rdf:type :Location ;
+:placeName 'Southampton' ;
+:countryName 'United Kingdom'.
+:Q13367 rdf:type :Location ;
+:placeName 'Forlì' ;
+:countryName 'Italy'.
+:Q29080 rdf:type :Location ;
+:placeName 'Ozzano dell'Emilia' ;
+:countryName 'Italy'.
+:Q13142 rdf:type :Location ;
+:placeName 'Fano' ;
+:countryName 'Italy'.
+:Q13369 rdf:type :Location ;
+:placeName 'Rimini' ;
+:countryName 'Italy'.
+:Q1486 rdf:type :Location ;
+:placeName 'Buenos Aires' ;
+:countryName 'Argentina'.
+:Q3130 rdf:type :Location ;
+:placeName 'Sydney' ;
+:countryName 'Australia'.
+:Q99937 rdf:type :Location ;
+:placeName 'Cesenatico' ;
+:countryName 'Italy'.
+:Q52981 rdf:type :Location ;
+:placeName 'Faenza' ;
+:countryName 'Italy'.
+:Q36433 rdf:type :Location ;
+:placeName 'Porto' ;
+:countryName 'Portugal'.
+:Q4115712 rdf:type :Location ;
+:placeName 'Kaunas' ;
+:countryName 'Lithuania'.
+:Q172 rdf:type :Location ;
+:placeName 'Toronto' ;
+:countryName 'Canada'.
+:Q10673294 rdf:type :Location ;
+:placeName 'Solna' ;
+:countryName 'Sweden'.
+:Q83232 rdf:type :Location ;
+:placeName 'Kiruna' ;
+:countryName 'Sweden'.
+:Q1026676 rdf:type :Location ;
+:placeName 'Norrmalm' ;
+:countryName 'Sweden'.
+:Q54757 rdf:type :Location ;
+:placeName 'Visby' ;
+:countryName 'Sweden'.
+:Q199712 rdf:type :Location ;
+:placeName 'Çanakkale' ;
+:countryName 'Turkey'.
+:Q871265 rdf:type :Location ;
+:placeName 'East Lansing' ;
+:countryName 'United States of America'.
+:Q5502687 rdf:type :Location ;
+:placeName 'Frenchay' ;
+:countryName 'United Kingdom'.
+:Q26509 rdf:type :Location ;
+:placeName 'Falun' ;
+:countryName 'Sweden'.
+:Q42448 rdf:type :Location ;
+:placeName 'Sheffield' ;
+:countryName 'United Kingdom'.
+:Q23436 rdf:type :Location ;
+:placeName 'Edinburgh' ;
+:countryName 'United Kingdom'.
+:Q10593587 rdf:type :Location ;
+:placeName 'Mörby' ;
+:countryName 'Sweden'.
+:Q43382 rdf:type :Location ;
+:placeName 'Plymouth' ;
+:countryName 'United Kingdom'.
+:Q831527 rdf:type :Location ;
+:placeName 'Djurgården' ;
+:countryName 'Sweden'.
+:Q25748 rdf:type :Location ;
+:placeName 'Gävle' ;
+:countryName 'Sweden'.
+:Q47554 rdf:type :Location ;
+:placeName 'Toruń' ;
+:countryName 'Poland'.
+:Q23124 rdf:type :Location ;
+:placeName 'West Midlands' ;
+:countryName 'United Kingdom'.
+:Q2256 rdf:type :Location ;
+:placeName 'Birmingham' ;
+:countryName 'United Kingdom'.
+:Q3047556 rdf:type :Location ;
+:placeName 'Edgbaston' ;
+:countryName 'United Kingdom'.
+:Q677514 rdf:type :Location ;
+:placeName 'Dorotheenstadt' ;
+:countryName 'German Reich'.
+:Q64 rdf:type :Location ;
+:placeName 'Berlin' ;
+:countryName 'Germany'.
+:Q390551 rdf:type :Location ;
+:placeName 'National Institutes of Health' ;
+:countryName 'United States of America'.
+:Q7895385 rdf:type :Location ;
+:placeName 'University of Exeter, Cornwall Campus' ;
+:countryName 'United Kingdom'.
+:Q7622729 rdf:type :Location ;
+:placeName 'Streatham Campus' ;
+:countryName 'United Kingdom'.
+:Q7594039 rdf:type :Location ;
+:placeName 'St Luke's Campus' ;
+:countryName 'United Kingdom'.
+:Q986020 rdf:type :Location ;
+:placeName 'Longwood Medical and Academic Area' ;
+:countryName 'United States of America'.
+:Q22502 rdf:type :Location ;
+:placeName 'Taiwan' ;
+:countryName 'Taiwan'.
+:Q1867 rdf:type :Location ;
+:placeName 'Taipei' ;
+:countryName 'Taiwan'.
+:Q7981199 rdf:type :Location ;
+:placeName 'Wellcome Genome Campus' ;
+:countryName 'United Kingdom'.
+:Q239143 rdf:type :Location ;
+:placeName 'Kowloon' ;
+:countryName 'People's Republic of China'.
+:Q50408 rdf:type :Location ;
+:placeName 'Seodaemun District' ;
+:countryName 'South Korea'.
+:Q1449 rdf:type :Location ;
+:placeName 'Genoa' ;
+:countryName 'Italy'.
+:Q3043091 rdf:type :Location ;
+:placeName 'Hung Hom' ;
+:countryName 'People's Republic of China'.
+:Q157669 rdf:type :Location ;
+:placeName 'Yau Tsim Mong District' ;
+:countryName 'People's Republic of China'.
+:Q86114776 rdf:type :Location ;
+:placeName 'Hammersmith Campus, Imperial College London' ;
+:countryName 'United Kingdom'.
+:Q86113860 rdf:type :Location ;
+:placeName 'White City Campus, Imperial College London' ;
+:countryName 'United Kingdom'.
+:Q128244 rdf:type :Location ;
+:placeName 'Waco' ;
+:countryName 'United States of America'.
+:Q7517190 rdf:type :Location ;
+:placeName 'Silwood Park' ;
+:countryName 'United Kingdom'.
+:Q54758 rdf:type :Location ;
+:placeName 'Katrineholm' ;
+:countryName 'Sweden'.
+:Q86088281 rdf:type :Location ;
+:placeName 'South Kensington Campus, Imperial College London' ;
+:countryName 'United Kingdom'.
+:Q3892155 rdf:type :Location ;
+:placeName 'Kontinkangas' ;
+:countryName 'Finland'.
+:Q1002144 rdf:type :Location ;
+:placeName 'Southport' ;
+:countryName 'Australia'.
+:Q2303437 rdf:type :Location ;
+:placeName 'Stadsdeel Noord' ;
+:countryName 'Netherlands'.
+:Q100 rdf:type :Location ;
+:placeName 'Boston' ;
+:countryName 'United States of America'.
+:Q8273407 rdf:type :Location ;
+:placeName 'Macquarie Park' ;
+:countryName 'Australia'.
+:Q174 rdf:type :Location ;
+:placeName 'São Paulo' ;
+:countryName 'Brazil'.
+:Q2741998 rdf:type :Location ;
+:placeName 'Etu-Töölö' ;
+:countryName 'Finland'.
+:Q1533 rdf:type :Location ;
+:placeName 'Caracas' ;
+:countryName 'Venezuela'.
+:Q1055 rdf:type :Location ;
+:placeName 'Hamburg' ;
+:countryName 'Germany'.
+:Q41262 rdf:type :Location ;
+:placeName 'Nottingham' ;
+:countryName 'United Kingdom'.
+:Q1085 rdf:type :Location ;
+:placeName 'Prague' ;
+:countryName 'Czech Republic'.
+:Q406 rdf:type :Location ;
+:placeName 'Istanbul' ;
+:countryName 'Turkey'.
+:Q6225 rdf:type :Location ;
+:placeName 'Coventry' ;
+:countryName 'United Kingdom'.
+:Q3552816 rdf:type :Location ;
+:placeName 'Uxbridge' ;
+:countryName 'United Kingdom'.
+:Q755153 rdf:type :Location ;
+:placeName 'Adelphi' ;
+:countryName 'United States of America'.
+:Q259230 rdf:type :Location ;
+:placeName 'Martinsried' ;
+:countryName 'Germany'.
+:Q1023563 rdf:type :Location ;
+:placeName 'Nõmme' ;
+:countryName 'Estonia'.
+:Q367402 rdf:type :Location ;
+:placeName 'Indre By' ;
+:countryName 'Denmark'.
+:Q12061437 rdf:type :Location ;
+:placeName 'Magill' ;
+:countryName 'Australia'.
+:Q327348 rdf:type :Location ;
+:placeName 'Mount Gambier' ;
+:countryName 'Australia'.
+:Q5112 rdf:type :Location ;
+:placeName 'Adelaide' ;
+:countryName 'Australia'.
+:Q3640 rdf:type :Location ;
+:placeName 'Ankara' ;
+:countryName 'Turkey'.
+:Q6794461 rdf:type :Location ;
+:placeName 'Mawson Lakes' ;
+:countryName 'Australia'.
+:Q24190244 rdf:type :Location ;
+:placeName 'Whyalla Norrie' ;
+:countryName 'Australia'.
+:Q4478 rdf:type :Location ;
+:placeName 'Punjab' ;
+:countryName 'Pakistan'.
+:Q241021 rdf:type :Location ;
+:placeName 'Montrouge' ;
+:countryName 'France'.
+:Q172455 rdf:type :Location ;
+:placeName 'Boulogne-Billancourt' ;
+:countryName 'France'.
+:Q90 rdf:type :Location ;
+:placeName 'Paris' ;
+:countryName 'France'.
+:Q1425428 rdf:type :Location ;
+:placeName 'Newcastle upon Tyne' ;
+:countryName 'United Kingdom'.
+:Q537323 rdf:type :Location ;
+:placeName 'Loughborough' ;
+:countryName 'United Kingdom'.
+:Q64063085 rdf:type :Location ;
+:placeName 'Q64063085' ;
+:countryName 'Netherlands'.
+:Q334 rdf:type :Location ;
+:placeName 'Singapore' ;
+:countryName 'Singapore'.
+:Q56433543 rdf:type :Location ;
+:placeName 'Thebarton campus' ;
+:countryName 'Australia'.
+:Q56433476 rdf:type :Location ;
+:placeName 'Roseworthy campus' ;
+:countryName 'Australia'.
+:Q56433431 rdf:type :Location ;
+:placeName 'North Terrace campus' ;
+:countryName 'Australia'.
+:Q56433517 rdf:type :Location ;
+:placeName 'Waite campus' ;
+:countryName 'Australia'.
+:Q580 rdf:type :Location ;
+:placeName 'Łódź' ;
+:countryName 'Poland'.
+:Q1888208 rdf:type :Location ;
+:placeName 'Blasieholmen' ;
+:countryName 'Sweden'.
+:Q7593808 rdf:type :Location ;
+:placeName 'St John's' ;
+:countryName 'United Kingdom'.
+:Q123709 rdf:type :Location ;
+:placeName 'Dundee' ;
+:countryName 'United Kingdom'.
+:Q204234 rdf:type :Location ;
+:placeName 'Milton Keynes' ;
+:countryName 'United Kingdom'.
+:Q1646181 rdf:type :Location ;
+:placeName 'Worcester' ;
+:countryName 'United Kingdom'.
+:Q13729283 rdf:type :Location ;
+:placeName 'Huygensgebouw, Nijmegen' ;
+:countryName 'Netherlands'.
+:Q67575442 rdf:type :Location ;
+:placeName 'Worcestershire' ;
+:countryName 'United Kingdom'.
+:Q54341 rdf:type :Location ;
+:placeName 'Borlänge' ;
+:countryName 'Sweden'.
+:Q83065 rdf:type :Location ;
+:placeName 'Leicester' ;
+:countryName 'United Kingdom'.
+:Q13375 rdf:type :Location ;
+:placeName 'Pisa' ;
+:countryName 'Italy'.
+:Q94385 rdf:type :Location ;
+:placeName 'Stockholm urban area' ;
+:countryName 'Sweden'.
+:Q1192085 rdf:type :Location ;
+:placeName 'Malmö Centrum' ;
+:countryName 'Sweden'.
+:Q42462 rdf:type :Location ;
+:placeName 'York' ;
+:countryName 'United Kingdom'.
+:Q31487 rdf:type :Location ;
+:placeName 'Kraków' ;
+:countryName 'Poland'.
+:Q3240427 rdf:type :Location ;
+:placeName 'Härnösand' ;
+:countryName 'Sweden'.
+:Q579854 rdf:type :Location ;
+:placeName 'Gamla stan' ;
+:countryName 'Sweden'.
+:Q54356 rdf:type :Location ;
+:placeName 'Nyköping' ;
+:countryName 'Sweden'.
+:Q126393 rdf:type :Location ;
+:placeName 'Palais Erzherzog Albrecht' ;
+:countryName 'Austria'.
+:Q182872 rdf:type :Location ;
+:placeName 'Fontainebleau' ;
+:countryName 'France'.
+:Q234735 rdf:type :Location ;
+:placeName 'Meudon' ;
+:countryName 'France'.
+:Q210985 rdf:type :Location ;
+:placeName 'Chelmsford' ;
+:countryName 'United Kingdom'.
+:Q117382 rdf:type :Location ;
+:placeName 'Sora' ;
+:countryName 'Italy'.
+:Q128226 rdf:type :Location ;
+:placeName 'Terracina' ;
+:countryName 'Italy'.
+:Q242710 rdf:type :Location ;
+:placeName 'Guidonia Montecelio' ;
+:countryName 'Italy'.
+:Q242533 rdf:type :Location ;
+:placeName 'Civitavecchia' ;
+:countryName 'Italy'.
+:Q271411 rdf:type :Location ;
+:placeName 'Malindi' ;
+:countryName 'Kenya'.
+:Q243116 rdf:type :Location ;
+:placeName 'Nettuno' ;
+:countryName 'Italy'.
+:Q116592 rdf:type :Location ;
+:placeName 'Cassino' ;
+:countryName 'Italy'.
+:Q241744 rdf:type :Location ;
+:placeName 'Ariccia' ;
+:countryName 'Italy'.
+:Q241791 rdf:type :Location ;
+:placeName 'Bracciano' ;
+:countryName 'Italy'.
+:Q242553 rdf:type :Location ;
+:placeName 'Colleferro' ;
+:countryName 'Italy'.
+:Q13396 rdf:type :Location ;
+:placeName 'Rieti' ;
+:countryName 'Italy'.
+:Q13450 rdf:type :Location ;
+:placeName 'Isernia' ;
+:countryName 'Italy'.
+:Q490 rdf:type :Location ;
+:placeName 'Milan' ;
+:countryName 'Italy'.
+:Q10496093 rdf:type :Location ;
+:placeName 'Fjärdingen' ;
+:countryName 'Sweden'.
+:Q13410 rdf:type :Location ;
+:placeName 'Latina' ;
+:countryName 'Italy'.
+:Q243172 rdf:type :Location ;
+:placeName 'Pomezia' ;
+:countryName 'Italy'.
+:Q128065 rdf:type :Location ;
+:placeName 'Cisterna di Latina' ;
+:countryName 'Italy'.
+:Q221900 rdf:type :Location ;
+:placeName 'Pozzilli' ;
+:countryName 'Italy'.
+:Q13413 rdf:type :Location ;
+:placeName 'Frosinone' ;
+:countryName 'Italy'.
+:Q13395 rdf:type :Location ;
+:placeName 'Viterbo' ;
+:countryName 'Italy'.
+:Q128089 rdf:type :Location ;
+:placeName 'Gaeta' ;
+:countryName 'Italy'.
+:Q3090863 rdf:type :Location ;
+:placeName 'Headington' ;
+:countryName 'United Kingdom'.
+:Q604283 rdf:type :Location ;
+:placeName 'Coffs Harbour' ;
+:countryName 'Australia'.
+:Q207639 rdf:type :Location ;
+:placeName 'Chichester' ;
+:countryName 'United Kingdom'.
+:Q939389 rdf:type :Location ;
+:placeName 'Skara' ;
+:countryName 'Sweden'.
+:Q54109 rdf:type :Location ;
+:placeName 'United States Capitol' ;
+:countryName 'United States of America'.
+:Q2337907 rdf:type :Location ;
+:placeName 'John Adams Building' ;
+:countryName 'United States of America'.
+:Q109036 rdf:type :Location ;
+:placeName 'Haugesund' ;
+:countryName 'Norway'.
+:Q3161243 rdf:type :Location ;
+:placeName 'James Madison Memorial Building' ;
+:countryName 'United States of America'.
+:Q2615945 rdf:type :Location ;
+:placeName 'Thomas Jefferson Building' ;
+:countryName 'United States of America'.
+:Q693628 rdf:type :Location ;
+:placeName 'Wilmersdorf' ;
+:countryName 'Germany'.
+:Q3297936 rdf:type :Location ;
+:placeName 'Foxhall' ;
+:countryName 'United States of America'.
+:Q2019662 rdf:type :Location ;
+:placeName 'Foggy Bottom' ;
+:countryName 'United States of America'.
+:Q4666835 rdf:type :Location ;
+:placeName 'Abercromby Square' ;
+:countryName 'United Kingdom'.

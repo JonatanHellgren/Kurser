@@ -1,0 +1,80 @@
+
+Prefix(:=<http://www.chalmers.se/jonahel/ontologies/2021/DAT346#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.chalmers.se/jonahel/ontologies/2021/DAT346>
+
+Declaration(Class(:Place))
+Declaration(Class(:Person))
+Declaration(Class(:Organisation))
+Declaration(Class(:University))
+
+Declaration(ObjectProperty(:employeeOf))
+Declaration(ObjectProperty(:bornIn))
+Declaration(ObjectProperty(:alumnusOf))
+
+Declaration(DataProperty(:personName))
+Declaration(DataProperty(:placeName))
+Declaration(DataProperty(:countryName))
+Declaration(DataProperty(:organisationName))
+Declaration(DataProperty(:yearFounded))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: :employeeOf (:employeeOf)
+
+ObjectPropertyDomain(:employeeOf :Person)
+ObjectPropertyRange(:employeeOf :Organisation)
+
+
+# Object Property: :bornIn (:bornIn)
+
+ObjectPropertyDomain(:bornIn :Person)
+ObjectPropertyRange(:bornIn :Place)
+
+# Object Property: :alumnusOf (:alumnusOf)
+
+ObjectPropertyDomain(:alumnusOf :Person)
+ObjectPropertyRange(:alumnusOf :University)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: :personName (:personName)
+
+DataPropertyDomain(:personName :Person)
+DataPropertyRange(:personName xsd:string)
+
+# Data Property :placeName (:placeName)
+
+DataPropertyDomain(:placeName :Place)
+DataPropertyRange(:placeName xsd:string)
+
+# Data Property :countryName (:countryName)
+
+DataPropertyDomain(:countryName :Place)
+DataPropertyRange(:countryName xsd:string)
+
+# Data Property :yearFounded (:yearFounded)
+DataPropertyDomain(:yearFounded :University)
+DataPropertyRange(:yearFounded xsd:nonNegativeInteger)
+
+
+############################
+#   Classes
+############################
+
+# Class: :University (:University)
+
+SubClassOf(:University :Organisation)
+
+

@@ -1,0 +1,1083 @@
+:organisation rdf:type :Organisation ;
+:OrganisationName 'organisationLabel' ;
+:locatedIn :location.
+:Q218506 rdf:type :Organisation ;
+:OrganisationName 'Lund University' ;
+:locatedIn :Q2167.
+:Q221645 rdf:type :Organisation ;
+:OrganisationName 'Stockholm University' ;
+:locatedIn :Q1754.
+:Q371522 rdf:type :Organisation ;
+:OrganisationName 'University of Gothenburg' ;
+:locatedIn :Q25287.
+:Q854280 rdf:type :Organisation ;
+:OrganisationName 'Royal Institute of Technology' ;
+:locatedIn :Q1754.
+:Q752038 rdf:type :Organisation ;
+:OrganisationName 'Uppsala Astronomical Observatory' ;
+:locatedIn :Q25286.
+:Q185246 rdf:type :Organisation ;
+:OrganisationName 'Uppsala University' ;
+:locatedIn :Q25286.
+:Q1312762 rdf:type :Organisation ;
+:OrganisationName 'Swedish University of Agricultural Sciences' ;
+:locatedIn :Q25286.
+:Q1420103 rdf:type :Organisation ;
+:OrganisationName 'Swedish Museum of Natural History' ;
+:locatedIn :Q1754.
+:Q49108 rdf:type :Organisation ;
+:OrganisationName 'Massachusetts Institute of Technology' ;
+:locatedIn :Q49111.
+:Q1061504 rdf:type :Organisation ;
+:OrganisationName 'Stockholm School of Economics' ;
+:locatedIn :Q3646335.
+:Q458393 rdf:type :Organisation ;
+:OrganisationName 'Durham University' ;
+:locatedIn :Q179815.
+:Q219564 rdf:type :Organisation ;
+:OrganisationName 'Karolinska Institute' ;
+:locatedIn :Q1754.
+:Q1420103 rdf:type :Organisation ;
+:OrganisationName 'Swedish Museum of Natural History' ;
+:locatedIn :Q4348917.
+:Q6373 rdf:type :Organisation ;
+:OrganisationName 'British Museum' ;
+:locatedIn :Q41778642.
+:Q154804 rdf:type :Organisation ;
+:OrganisationName 'Leipzig University' ;
+:locatedIn :Q183.
+:Q4345832 rdf:type :Organisation ;
+:OrganisationName 'Saint Petersburg Academy of Sciences' ;
+:locatedIn :Q656.
+:Q2755982 rdf:type :Organisation ;
+:OrganisationName 'Uppsala Botanical Garden' ;
+:locatedIn :Q25286.
+:Q156737 rdf:type :Organisation ;
+:OrganisationName 'University of Kiel' ;
+:locatedIn :Q1707.
+:Q204457 rdf:type :Organisation ;
+:OrganisationName 'University of Bergen' ;
+:locatedIn :Q26793.
+:Q632004 rdf:type :Organisation ;
+:OrganisationName 'Radboud University Nijmegen' ;
+:locatedIn :Q47887.
+:Q2841849 rdf:type :Organisation ;
+:OrganisationName 'Ruotsin Helsingin-suurlähetystö' ;
+:locatedIn :Q1772186.
+:Q154561 rdf:type :Organisation ;
+:OrganisationName 'University of Jena' ;
+:locatedIn :Q3150.
+:Q474816 rdf:type :Organisation ;
+:OrganisationName 'Geological Survey of Sweden' ;
+:locatedIn :Q25286.
+:Q917874 rdf:type :Organisation ;
+:OrganisationName 'Åbo Akademi University' ;
+:locatedIn :Q38511.
+:Q486156 rdf:type :Organisation ;
+:OrganisationName 'University of Oslo' ;
+:locatedIn :Q585.
+:Q1371375 rdf:type :Organisation ;
+:OrganisationName 'Museum of Ethnography' ;
+:locatedIn :Q1781556.
+:Q1371375 rdf:type :Organisation ;
+:OrganisationName 'Museum of Ethnography' ;
+:locatedIn :Q10719196.
+:Q459506 rdf:type :Organisation ;
+:OrganisationName 'University of Bristol' ;
+:locatedIn :Q23154.
+:Q836805 rdf:type :Organisation ;
+:OrganisationName 'Chalmers University of Technology' ;
+:locatedIn :Q25287.
+:Q977781 rdf:type :Organisation ;
+:OrganisationName 'Malmö University' ;
+:locatedIn :Q2211.
+:Q1163548 rdf:type :Organisation ;
+:OrganisationName 'Blekinge Institute of Technology' ;
+:locatedIn :Q25789.
+:Q34433 rdf:type :Organisation ;
+:OrganisationName 'University of Oxford' ;
+:locatedIn :Q23169.
+:Q34433 rdf:type :Organisation ;
+:OrganisationName 'University of Oxford' ;
+:locatedIn :Q34217.
+:Q1045828 rdf:type :Organisation ;
+:OrganisationName 'University of East Anglia' ;
+:locatedIn :Q130191.
+:Q977781 rdf:type :Organisation ;
+:OrganisationName 'Malmö University' ;
+:locatedIn :Q5242576.
+:Q1414861 rdf:type :Organisation ;
+:OrganisationName 'University of Exeter' ;
+:locatedIn :Q7594039.
+:Q1414861 rdf:type :Organisation ;
+:OrganisationName 'University of Exeter' ;
+:locatedIn :Q7622729.
+:Q1414861 rdf:type :Organisation ;
+:OrganisationName 'University of Exeter' ;
+:locatedIn :Q7895385.
+:Q198678 rdf:type :Organisation ;
+:OrganisationName 'Swedish Radiation Safety Authority' ;
+:locatedIn :Q54758.
+:Q1782926 rdf:type :Organisation ;
+:OrganisationName 'Konstfack' ;
+:locatedIn :Q1781556.
+:Q1782926 rdf:type :Organisation ;
+:OrganisationName 'Konstfack' ;
+:locatedIn :Q1781652.
+:Q782600 rdf:type :Organisation ;
+:OrganisationName 'Linköping University' ;
+:locatedIn :Q25413.
+:Q2822454 rdf:type :Organisation ;
+:OrganisationName 'Royal Swedish Academy of Agriculture and Forestry' ;
+:locatedIn :Q3646335.
+:Q1144565 rdf:type :Organisation ;
+:OrganisationName 'Umeå University' ;
+:locatedIn :Q25579.
+:Q3355352 rdf:type :Organisation ;
+:OrganisationName 'Royal Institute of Art' ;
+:locatedIn :Q10670072.
+:Q1782926 rdf:type :Organisation ;
+:OrganisationName 'Konstfack' ;
+:locatedIn :Q1754.
+:Q6554447 rdf:type :Organisation ;
+:OrganisationName 'Linköping University Hospital' ;
+:locatedIn :Q25413.
+:Q3355352 rdf:type :Organisation ;
+:OrganisationName 'Royal Institute of Art' ;
+:locatedIn :Q1754.
+:Q1972721 rdf:type :Organisation ;
+:OrganisationName 'Luleå University of Technology' ;
+:locatedIn :Q7230430.
+:Q953058 rdf:type :Organisation ;
+:OrganisationName 'National Library of Sweden' ;
+:locatedIn :Q298489.
+:Q1464114 rdf:type :Organisation ;
+:OrganisationName 'University of Skövde' ;
+:locatedIn :Q21166.
+:Q1670860 rdf:type :Organisation ;
+:OrganisationName 'Swedish International Development Cooperation Agency' ;
+:locatedIn :Q1754.
+:Q1888771 rdf:type :Organisation ;
+:OrganisationName 'Manchester Metropolitan University' ;
+:locatedIn :Q18125.
+:Q1972721 rdf:type :Organisation ;
+:OrganisationName 'Luleå University of Technology' ;
+:locatedIn :Q26268.
+:Q5625923 rdf:type :Organisation ;
+:OrganisationName 'Gävle University College' ;
+:locatedIn :Q25748.
+:Q953058 rdf:type :Organisation ;
+:OrganisationName 'National Library of Sweden' ;
+:locatedIn :Q1754.
+:Q1752712 rdf:type :Organisation ;
+:OrganisationName 'Nicolaus Copernicus University in Toruń' ;
+:locatedIn :Q47554.
+:Q503424 rdf:type :Organisation ;
+:OrganisationName 'University of Leeds' ;
+:locatedIn :Q26262688.
+:Q3563936 rdf:type :Organisation ;
+:OrganisationName 'Swedish National Road and Transport Research Institute' ;
+:locatedIn :Q25413.
+:Q3290496 rdf:type :Organisation ;
+:OrganisationName 'Sahlgrenska University Hospital' ;
+:locatedIn :Q25287.
+:Q1796144 rdf:type :Organisation ;
+:OrganisationName 'Royal College of Music in Stockholm' ;
+:locatedIn :Q1754.
+:Q35794 rdf:type :Organisation ;
+:OrganisationName 'University of Cambridge' ;
+:locatedIn :Q350.
+:Q10553859 rdf:type :Organisation ;
+:OrganisationName 'Regional Archives in Göteborg' ;
+:locatedIn :Q25287.
+:Q10576435 rdf:type :Organisation ;
+:OrganisationName 'Campus Manilla' ;
+:locatedIn :Q831527.
+:Q10711975 rdf:type :Organisation ;
+:OrganisationName 'Vadstena hospital' ;
+:locatedIn :Q265682.
+:Q1751928 rdf:type :Organisation ;
+:OrganisationName 'Linnaeus University' ;
+:locatedIn :Q26152.
+:Q1751928 rdf:type :Organisation ;
+:OrganisationName 'Linnaeus University' ;
+:locatedIn :Q26345.
+:Q4577772 rdf:type :Organisation ;
+:OrganisationName 'Swedish Enforcement Authority' ;
+:locatedIn :Q10683761.
+:Q502842 rdf:type :Organisation ;
+:OrganisationName 'Halmstad University College' ;
+:locatedIn :Q26521.
+:Q1734280 rdf:type :Organisation ;
+:OrganisationName 'Karolinska University Hospital' ;
+:locatedIn :Q129153.
+:Q1734280 rdf:type :Organisation ;
+:OrganisationName 'Karolinska University Hospital' ;
+:locatedIn :Q4117115.
+:Q502824 rdf:type :Organisation ;
+:OrganisationName 'Kristianstad University College' ;
+:locatedIn :Q26937.
+:Q631844 rdf:type :Organisation ;
+:OrganisationName 'Swedish National Heritage Board' ;
+:locatedIn :Q1754.
+:Q10444909 rdf:type :Organisation ;
+:OrganisationName 'Centralsjukhuset Kristianstad' ;
+:locatedIn :Q26937.
+:Q812573 rdf:type :Organisation ;
+:OrganisationName 'Baylor University' ;
+:locatedIn :Q128244.
+:Q1187271 rdf:type :Organisation ;
+:OrganisationName 'Hong Kong Polytechnic University' ;
+:locatedIn :Q157669.
+:Q1187271 rdf:type :Organisation ;
+:OrganisationName 'Hong Kong Polytechnic University' ;
+:locatedIn :Q239143.
+:Q1187271 rdf:type :Organisation ;
+:OrganisationName 'Hong Kong Polytechnic University' ;
+:locatedIn :Q3043091.
+:Q270532 rdf:type :Organisation ;
+:OrganisationName 'University of Aberdeen' ;
+:locatedIn :Q36405.
+:Q151510 rdf:type :Organisation ;
+:OrganisationName 'Heidelberg University' ;
+:locatedIn :Q2966.
+:Q2496060 rdf:type :Organisation ;
+:OrganisationName 'Jönköping University' ;
+:locatedIn :Q25415.
+:Q1858061 rdf:type :Organisation ;
+:OrganisationName 'Karlstad University' ;
+:locatedIn :Q25457.
+:Q148554 rdf:type :Organisation ;
+:OrganisationName 'National Museum of Natural History' ;
+:locatedIn :Q465811.
+:Q10686267 rdf:type :Organisation ;
+:OrganisationName 'The Swedish Seed Association' ;
+:locatedIn :Q202408.
+:Q3110979 rdf:type :Organisation ;
+:OrganisationName 'Södertörn University' ;
+:locatedIn :Q4117115.
+:Q3110979 rdf:type :Organisation ;
+:OrganisationName 'Södertörn University' ;
+:locatedIn :Q32253035.
+:Q56247128 rdf:type :Organisation ;
+:OrganisationName 'Cincinnati Museum of Natural History and Science' ;
+:locatedIn :Q863050.
+:Q842858 rdf:type :Organisation ;
+:OrganisationName 'Nationalmuseum' ;
+:locatedIn :Q1754.
+:Q18589787 rdf:type :Organisation ;
+:OrganisationName 'Lyceum för flickor' ;
+:locatedIn :Q1754.
+:Q5587845 rdf:type :Organisation ;
+:OrganisationName 'Gothenburg University Library' ;
+:locatedIn :Q25287.
+:Q1940803 rdf:type :Organisation ;
+:OrganisationName 'Mid Sweden University' ;
+:locatedIn :Q26476.
+:Q1940803 rdf:type :Organisation ;
+:OrganisationName 'Mid Sweden University' ;
+:locatedIn :Q26515.
+:Q2002420 rdf:type :Organisation ;
+:OrganisationName 'Örebro University' ;
+:locatedIn :Q25732.
+:Q4356777 rdf:type :Organisation ;
+:OrganisationName 'Swedish Institute of Space Physics' ;
+:locatedIn :Q83232.
+:Q842858 rdf:type :Organisation ;
+:OrganisationName 'Nationalmuseum' ;
+:locatedIn :Q1026676.
+:Q950917 rdf:type :Organisation ;
+:OrganisationName 'Nordic Institute for Theoretical Physics' ;
+:locatedIn :Q1803674.
+:Q950917 rdf:type :Organisation ;
+:OrganisationName 'Nordic Institute for Theoretical Physics' ;
+:locatedIn :Q4348917.
+:Q3182302 rdf:type :Organisation ;
+:OrganisationName 'Gotland Museum' ;
+:locatedIn :Q54757.
+:Q1480245 rdf:type :Organisation ;
+:OrganisationName 'National Defence Radio Establishment' ;
+:locatedIn :Q926728.
+:Q127990 rdf:type :Organisation ;
+:OrganisationName 'Australian National University' ;
+:locatedIn :Q482055.
+:Q1144673 rdf:type :Organisation ;
+:OrganisationName 'Royal Academy of Music' ;
+:locatedIn :Q84.
+:Q956772 rdf:type :Organisation ;
+:OrganisationName 'Gothenburg Botanical Garden' ;
+:locatedIn :Q10725885.
+:Q127990 rdf:type :Organisation ;
+:OrganisationName 'Australian National University' ;
+:locatedIn :Q3114.
+:Q7401336 rdf:type :Organisation ;
+:OrganisationName 'Saint George's Hospital' ;
+:locatedIn :Q2523431.
+:Q2445509 rdf:type :Organisation ;
+:OrganisationName 'Swedish Defence Research Agency' ;
+:locatedIn :Q1754.
+:Q6971056 rdf:type :Organisation ;
+:OrganisationName 'National Board of Health and Welfare' ;
+:locatedIn :Q1754.
+:Q174570 rdf:type :Organisation ;
+:OrganisationName 'London School of Economics and Political Science' ;
+:locatedIn :Q84.
+:Q131262 rdf:type :Organisation ;
+:OrganisationName 'University of Bologna' ;
+:locatedIn :Q99937.
+:Q201492 rdf:type :Organisation ;
+:OrganisationName 'McGill University' ;
+:locatedIn :Q340.
+:Q201492 rdf:type :Organisation ;
+:OrganisationName 'McGill University' ;
+:locatedIn :Q176.
+:Q131262 rdf:type :Organisation ;
+:OrganisationName 'University of Bologna' ;
+:locatedIn :Q1486.
+:Q131262 rdf:type :Organisation ;
+:OrganisationName 'University of Bologna' ;
+:locatedIn :Q6662.
+:Q131262 rdf:type :Organisation ;
+:OrganisationName 'University of Bologna' ;
+:locatedIn :Q13142.
+:Q131262 rdf:type :Organisation ;
+:OrganisationName 'University of Bologna' ;
+:locatedIn :Q13367.
+:Q131262 rdf:type :Organisation ;
+:OrganisationName 'University of Bologna' ;
+:locatedIn :Q13364.
+:Q131262 rdf:type :Organisation ;
+:OrganisationName 'University of Bologna' ;
+:locatedIn :Q13369.
+:Q131262 rdf:type :Organisation ;
+:OrganisationName 'University of Bologna' ;
+:locatedIn :Q29080.
+:Q131262 rdf:type :Organisation ;
+:OrganisationName 'University of Bologna' ;
+:locatedIn :Q50195.
+:Q131262 rdf:type :Organisation ;
+:OrganisationName 'University of Bologna' ;
+:locatedIn :Q52981.
+:Q10551871 rdf:type :Organisation ;
+:OrganisationName 'Skaraborgs sjukhus Skövde' ;
+:locatedIn :Q21166.
+:Q7654827 rdf:type :Organisation ;
+:OrganisationName 'Swedish Research Council' ;
+:locatedIn :Q1754.
+:Q7654606 rdf:type :Organisation ;
+:OrganisationName 'Swedish Board of Agriculture' ;
+:locatedIn :Q25415.
+:Q10677733 rdf:type :Organisation ;
+:OrganisationName 'National Veterinary Institute' ;
+:locatedIn :Q25286.
+:Q28804179 rdf:type :Organisation ;
+:OrganisationName 'Västerbotten County Administrative Board' ;
+:locatedIn :Q25579.
+:Q230899 rdf:type :Organisation ;
+:OrganisationName 'University of Manchester' ;
+:locatedIn :Q18125.
+:Q174158 rdf:type :Organisation ;
+:OrganisationName 'Hebrew University of Jerusalem' ;
+:locatedIn :Q1218.
+:Q86021120 rdf:type :Organisation ;
+:OrganisationName 'University of Surrey School of Veterinary Medicine' ;
+:locatedIn :Q213465.
+:Q174158 rdf:type :Organisation ;
+:OrganisationName 'Hebrew University of Jerusalem' ;
+:locatedIn :Q207350.
+:Q1557861 rdf:type :Organisation ;
+:OrganisationName 'University of Évora' ;
+:locatedIn :Q2652407.
+:Q7581760 rdf:type :Organisation ;
+:OrganisationName 'Spyken' ;
+:locatedIn :Q2167.
+:Q375606 rdf:type :Organisation ;
+:OrganisationName 'Birkbeck, University of London' ;
+:locatedIn :Q84.
+:Q633078 rdf:type :Organisation ;
+:OrganisationName 'Malmö Konsthall' ;
+:locatedIn :Q2211.
+:Q850730 rdf:type :Organisation ;
+:OrganisationName 'University of Groningen' ;
+:locatedIn :Q749.
+:Q430594 rdf:type :Organisation ;
+:OrganisationName 'Uppsala University Hospital' ;
+:locatedIn :Q25286.
+:Q10492852 rdf:type :Organisation ;
+:OrganisationName 'Museum of Evolution of Uppsala University' ;
+:locatedIn :Q25286.
+:Q3330592 rdf:type :Organisation ;
+:OrganisationName 'Lund University Historical Museum' ;
+:locatedIn :Q2167.
+:Q47011663 rdf:type :Organisation ;
+:OrganisationName 'Q47011663' ;
+:locatedIn :Q32253035.
+:Q189441 rdf:type :Organisation ;
+:OrganisationName 'Jagiellonian University' ;
+:locatedIn :Q31487.
+:Q1481050 rdf:type :Organisation ;
+:OrganisationName 'London Business School' ;
+:locatedIn :Q84.
+:Q967165 rdf:type :Organisation ;
+:OrganisationName 'University of York' ;
+:locatedIn :Q42462.
+:Q1711558 rdf:type :Organisation ;
+:OrganisationName 'University of Plymouth' ;
+:locatedIn :Q43382.
+:Q168751 rdf:type :Organisation ;
+:OrganisationName 'Duke University' ;
+:locatedIn :Q99438089.
+:Q7435613 rdf:type :Organisation ;
+:OrganisationName 'Scotland's Rural College' ;
+:locatedIn :Q23436.
+:Q3330828 rdf:type :Organisation ;
+:OrganisationName 'Zoological museum in Lund' ;
+:locatedIn :Q2167.
+:Q3370919 rdf:type :Organisation ;
+:OrganisationName 'Swedish Agency for Economic and Regional Growth' ;
+:locatedIn :Q1754.
+:Q1756541 rdf:type :Organisation ;
+:OrganisationName 'Vytautas Magnus University' ;
+:locatedIn :Q4115712.
+:Q10544771 rdf:type :Organisation ;
+:OrganisationName 'Swedish Chemicals Agency' ;
+:locatedIn :Q10683761.
+:Q180865 rdf:type :Organisation ;
+:OrganisationName 'University of Toronto' ;
+:locatedIn :Q172.
+:Q17518896 rdf:type :Organisation ;
+:OrganisationName 'Public Health Agency of Sweden' ;
+:locatedIn :Q26515.
+:Q1363442 rdf:type :Organisation ;
+:OrganisationName 'Kulturen' ;
+:locatedIn :Q2167.
+:Q10635976 rdf:type :Organisation ;
+:OrganisationName 'Swedish Polar Research Secretariat' ;
+:locatedIn :Q26268.
+:Q10302765 rdf:type :Organisation ;
+:OrganisationName 'Institute for Molecular and Cell Biology' ;
+:locatedIn :Q36433.
+:Q795988 rdf:type :Organisation ;
+:OrganisationName 'University of Guelph' ;
+:locatedIn :Q504114.
+:Q963530 rdf:type :Organisation ;
+:OrganisationName 'University of Stirling' ;
+:locatedIn :Q182923.
+:Q17518896 rdf:type :Organisation ;
+:OrganisationName 'Public Health Agency of Sweden' ;
+:locatedIn :Q10673294.
+:Q168426 rdf:type :Organisation ;
+:OrganisationName 'University of Münster' ;
+:locatedIn :Q1198.
+:Q168426 rdf:type :Organisation ;
+:OrganisationName 'University of Münster' ;
+:locatedIn :Q2742.
+:Q12975239 rdf:type :Organisation ;
+:OrganisationName 'University of Ruhuna' ;
+:locatedIn :Q13360574.
+:Q245247 rdf:type :Organisation ;
+:OrganisationName 'King's College London' ;
+:locatedIn :Q84.
+:Q725108 rdf:type :Organisation ;
+:OrganisationName 'Open-air museum Skansen' ;
+:locatedIn :Q1754.
+:Q3126873 rdf:type :Organisation ;
+:OrganisationName 'Erasmus MC' ;
+:locatedIn :Q34370.
+:Q498407 rdf:type :Organisation ;
+:OrganisationName 'University of Latvia' ;
+:locatedIn :Q1773.
+:Q2901382 rdf:type :Organisation ;
+:OrganisationName 'Uppsala University Library' ;
+:locatedIn :Q1044419.
+:Q10550663 rdf:type :Organisation ;
+:OrganisationName 'Kustsanatoriet Apelviken' ;
+:locatedIn :Q21168.
+:Q3547145 rdf:type :Organisation ;
+:OrganisationName 'Birmingham City University' ;
+:locatedIn :Q2256.
+:Q49121 rdf:type :Organisation ;
+:OrganisationName 'Harvard Medical School' ;
+:locatedIn :Q100.
+:Q76473 rdf:type :Organisation ;
+:OrganisationName 'University of Southampton' ;
+:locatedIn :Q79848.
+:Q10658535 rdf:type :Organisation ;
+:OrganisationName 'National Board of Forensic Medicine' ;
+:locatedIn :Q1754.
+:Q2983328 rdf:type :Organisation ;
+:OrganisationName 'Swedish Meteorological and Hydrological Institute' ;
+:locatedIn :Q25724.
+:Q1622088 rdf:type :Organisation ;
+:OrganisationName 'University of Borås' ;
+:locatedIn :Q26040.
+:Q1388689 rdf:type :Organisation ;
+:OrganisationName 'Örebro University Hospital' ;
+:locatedIn :Q25732.
+:Q18288613 rdf:type :Organisation ;
+:OrganisationName 'Queen Silvia Children's Hospital' ;
+:locatedIn :Q25287.
+:Q10717657 rdf:type :Organisation ;
+:OrganisationName 'Värmland County museum' ;
+:locatedIn :Q25457.
+:Q7894643 rdf:type :Organisation ;
+:OrganisationName 'University West' ;
+:locatedIn :Q54339.
+:Q2002520 rdf:type :Organisation ;
+:OrganisationName 'University of the West of England, Bristol' ;
+:locatedIn :Q5502687.
+:Q272576 rdf:type :Organisation ;
+:OrganisationName 'Çanakkale Onsekiz Mart University' ;
+:locatedIn :Q199712.
+:Q1134606 rdf:type :Organisation ;
+:OrganisationName 'Massey University' ;
+:locatedIn :Q5455633.
+:Q546976 rdf:type :Organisation ;
+:OrganisationName 'University of Surrey' ;
+:locatedIn :Q213465.
+:Q270222 rdf:type :Organisation ;
+:OrganisationName 'Michigan State University' ;
+:locatedIn :Q871265.
+:Q487556 rdf:type :Organisation ;
+:OrganisationName 'University of Sydney' ;
+:locatedIn :Q3130.
+:Q3038944 rdf:type :Organisation ;
+:OrganisationName 'University College of Film, Radio, Television and Theatre' ;
+:locatedIn :Q1781556.
+:Q119684 rdf:type :Organisation ;
+:OrganisationName 'Malmö City Library' ;
+:locatedIn :Q1192085.
+:Q10650489 rdf:type :Organisation ;
+:OrganisationName 'Swedish Government Offices' ;
+:locatedIn :Q1754.
+:Q1246991 rdf:type :Organisation ;
+:OrganisationName 'Stockholm Public Library' ;
+:locatedIn :Q94385.
+:Q1246991 rdf:type :Organisation ;
+:OrganisationName 'Stockholm Public Library' ;
+:locatedIn :Q3646335.
+:Q27621 rdf:type :Organisation ;
+:OrganisationName 'Saint Petersburg State University' ;
+:locatedIn :Q656.
+:Q1439312 rdf:type :Organisation ;
+:OrganisationName 'Danderyd Hospital' ;
+:locatedIn :Q10593587.
+:Q1129909 rdf:type :Organisation ;
+:OrganisationName 'Lund University Library' ;
+:locatedIn :Q2167.
+:Q1546159 rdf:type :Organisation ;
+:OrganisationName 'Mälardalen University College' ;
+:locatedIn :Q25412.
+:Q9361026 rdf:type :Organisation ;
+:OrganisationName 'Ramlösa hälsobrunn' ;
+:locatedIn :Q1445185.
+:Q10411783 rdf:type :Organisation ;
+:OrganisationName 'Q10411783' ;
+:locatedIn :Q3274356.
+:Q86019561 rdf:type :Organisation ;
+:OrganisationName 'Cardiff University School of Earth and Ocean Sciences' ;
+:locatedIn :Q10690.
+:Q28948579 rdf:type :Organisation ;
+:OrganisationName 'Föreningen för kvinnans politiska rösträtt i Stockholm' ;
+:locatedIn :Q1754.
+:Q213439 rdf:type :Organisation ;
+:OrganisationName 'University of Virginia' ;
+:locatedIn :Q123766.
+:Q333886 rdf:type :Organisation ;
+:OrganisationName 'Georgetown University' ;
+:locatedIn :Q1468648.
+:Q664846 rdf:type :Organisation ;
+:OrganisationName 'National Cancer Institute' ;
+:locatedIn :Q390551.
+:Q7889516 rdf:type :Organisation ;
+:OrganisationName 'United States Army Research Laboratory' ;
+:locatedIn :Q755153.
+:Q10677666 rdf:type :Organisation ;
+:OrganisationName 'Swedish Agency for Health Technology Assessment and Assessment of Social Services' ;
+:locatedIn :Q1754.
+:Q189022 rdf:type :Organisation ;
+:OrganisationName 'Imperial College London' ;
+:locatedIn :Q7517190.
+:Q189022 rdf:type :Organisation ;
+:OrganisationName 'Imperial College London' ;
+:locatedIn :Q86088281.
+:Q189022 rdf:type :Organisation ;
+:OrganisationName 'Imperial College London' ;
+:locatedIn :Q86113860.
+:Q189022 rdf:type :Organisation ;
+:OrganisationName 'Imperial College London' ;
+:locatedIn :Q86114776.
+:Q1558323 rdf:type :Organisation ;
+:OrganisationName 'Swedish School of Sport and Health Sciences' ;
+:locatedIn :Q4348917.
+:Q81174 rdf:type :Organisation ;
+:OrganisationName 'Jesus College' ;
+:locatedIn :Q34217.
+:Q193196 rdf:type :Organisation ;
+:OrganisationName 'University College London' ;
+:locatedIn :Q84.
+:Q1558323 rdf:type :Organisation ;
+:OrganisationName 'Swedish School of Sport and Health Sciences' ;
+:locatedIn :Q1754.
+:Q193196 rdf:type :Organisation ;
+:OrganisationName 'University College London' ;
+:locatedIn :Q150120.
+:Q978464 rdf:type :Organisation ;
+:OrganisationName 'Natural History Museum of Denmark' ;
+:locatedIn :Q367402.
+:Q1432914 rdf:type :Organisation ;
+:OrganisationName 'Rörstrand' ;
+:locatedIn :Q3646335.
+:Q3151942 rdf:type :Organisation ;
+:OrganisationName 'Lille institute for electronics micro-electronics and nanotechnologies' ;
+:locatedIn :Q2974822.
+:Q7437625 rdf:type :Organisation ;
+:OrganisationName 'Scottish Association for Marine Science' ;
+:locatedIn :Q391948.
+:Q7437625 rdf:type :Organisation ;
+:OrganisationName 'Scottish Association for Marine Science' ;
+:locatedIn :Q935702.
+:Q537526 rdf:type :Organisation ;
+:OrganisationName 'Dalarna University' ;
+:locatedIn :Q26509.
+:Q160302 rdf:type :Organisation ;
+:OrganisationName 'University of Edinburgh' ;
+:locatedIn :Q23436.
+:Q823917 rdf:type :Organisation ;
+:OrganisationName 'University of Sheffield' ;
+:locatedIn :Q42448.
+:Q195668 rdf:type :Organisation ;
+:OrganisationName 'Queen Mary University of London' ;
+:locatedIn :Q84.
+:Q932411 rdf:type :Organisation ;
+:OrganisationName 'Brunel University' ;
+:locatedIn :Q84.
+:Q932411 rdf:type :Organisation ;
+:OrganisationName 'Brunel University' ;
+:locatedIn :Q3552816.
+:Q1138080 rdf:type :Organisation ;
+:OrganisationName 'Coventry University' ;
+:locatedIn :Q6225.
+:Q1341845 rdf:type :Organisation ;
+:OrganisationName 'European Bioinformatics Institute' ;
+:locatedIn :Q7981199.
+:Q223429 rdf:type :Organisation ;
+:OrganisationName 'University of Birmingham' ;
+:locatedIn :Q2256.
+:Q223429 rdf:type :Organisation ;
+:OrganisationName 'University of Birmingham' ;
+:locatedIn :Q23124.
+:Q223429 rdf:type :Organisation ;
+:OrganisationName 'University of Birmingham' ;
+:locatedIn :Q3047556.
+:Q645663 rdf:type :Organisation ;
+:OrganisationName 'University of Pisa' ;
+:locatedIn :Q13375.
+:Q896267 rdf:type :Organisation ;
+:OrganisationName 'Boğaziçi University' ;
+:locatedIn :Q406.
+:Q1126189 rdf:type :Organisation ;
+:OrganisationName 'London School of Hygiene & Tropical Medicine' ;
+:locatedIn :Q84.
+:Q5423685 rdf:type :Organisation ;
+:OrganisationName 'F.C. Donders Centre for Cognitive Neuroimaging' ;
+:locatedIn :Q13729283.
+:Q170027 rdf:type :Organisation ;
+:OrganisationName 'University of London' ;
+:locatedIn :Q84.
+:Q152087 rdf:type :Organisation ;
+:OrganisationName 'Humboldt University of Berlin' ;
+:locatedIn :Q64.
+:Q1879124 rdf:type :Organisation ;
+:OrganisationName 'Medical Products Agency' ;
+:locatedIn :Q25286.
+:Q152087 rdf:type :Organisation ;
+:OrganisationName 'Humboldt University of Berlin' ;
+:locatedIn :Q677514.
+:Q10444910 rdf:type :Organisation ;
+:OrganisationName 'Q10444910' ;
+:locatedIn :Q25457.
+:Q936476 rdf:type :Organisation ;
+:OrganisationName 'Central University of Venezuela' ;
+:locatedIn :Q1533.
+:Q5676556 rdf:type :Organisation ;
+:OrganisationName 'Harvard T.H. Chan School of Public Health' ;
+:locatedIn :Q986020.
+:Q1968711 rdf:type :Organisation ;
+:OrganisationName 'Nobel Prize Museum' ;
+:locatedIn :Q579854.
+:Q3232072 rdf:type :Organisation ;
+:OrganisationName 'Södermanland County Council' ;
+:locatedIn :Q54356.
+:Q6973641 rdf:type :Organisation ;
+:OrganisationName 'National Institute of Economic Research' ;
+:locatedIn :Q1754.
+:Q6972720 rdf:type :Organisation ;
+:OrganisationName 'National Food Agency' ;
+:locatedIn :Q25286.
+:Q7944412 rdf:type :Organisation ;
+:OrganisationName 'Västerås Central Hospital' ;
+:locatedIn :Q25412.
+:Q10571977 rdf:type :Organisation ;
+:OrganisationName 'Ryhov County Hospital' ;
+:locatedIn :Q25415.
+:Q10416979 rdf:type :Organisation ;
+:OrganisationName 'Swedish Work Environment Authority' ;
+:locatedIn :Q1754.
+:Q3737020 rdf:type :Organisation ;
+:OrganisationName 'Oulu University Hospital' ;
+:locatedIn :Q3892155.
+:Q99284864 rdf:type :Organisation ;
+:OrganisationName 'Griffith University - Gold Coast Campus' ;
+:locatedIn :Q1002144.
+:Q472316 rdf:type :Organisation ;
+:OrganisationName 'University of Nottingham' ;
+:locatedIn :Q41262.
+:Q86005221 rdf:type :Organisation ;
+:OrganisationName 'University of Southampton Faculty of Health Sciences' ;
+:locatedIn :Q79848.
+:Q31519 rdf:type :Organisation ;
+:OrganisationName 'Charles University' ;
+:locatedIn :Q1085.
+:Q326342 rdf:type :Organisation ;
+:OrganisationName 'Concordia University' ;
+:locatedIn :Q340.
+:Q1724971 rdf:type :Organisation ;
+:OrganisationName 'National Archives of Sweden' ;
+:locatedIn :Q1754.
+:Q41114 rdf:type :Organisation ;
+:OrganisationName 'Ewha Womans University' ;
+:locatedIn :Q50408.
+:Q137503 rdf:type :Organisation ;
+:OrganisationName 'University of Łódź' ;
+:locatedIn :Q580.
+:Q1155944 rdf:type :Organisation ;
+:OrganisationName 'Paris Descartes University' ;
+:locatedIn :Q90.
+:Q1677108 rdf:type :Organisation ;
+:OrganisationName 'Swedish Transport Administration' ;
+:locatedIn :Q54341.
+:Q10677678 rdf:type :Organisation ;
+:OrganisationName 'Swedish Geotechnical Institute' ;
+:locatedIn :Q25413.
+:Q837164 rdf:type :Organisation ;
+:OrganisationName 'Newcastle University' ;
+:locatedIn :Q1425428.
+:Q1155944 rdf:type :Organisation ;
+:OrganisationName 'Paris Descartes University' ;
+:locatedIn :Q172455.
+:Q1155944 rdf:type :Organisation ;
+:OrganisationName 'Paris Descartes University' ;
+:locatedIn :Q241021.
+:Q6039999 rdf:type :Organisation ;
+:OrganisationName 'Institute of Cancer Research' ;
+:locatedIn :Q84.
+:Q891249 rdf:type :Organisation ;
+:OrganisationName 'Swedish Companies Registration Office' ;
+:locatedIn :Q26476.
+:Q56302089 rdf:type :Organisation ;
+:OrganisationName 'Agency for Digital Government' ;
+:locatedIn :Q26476.
+:Q1331110 rdf:type :Organisation ;
+:OrganisationName 'Swedish Security Service' ;
+:locatedIn :Q1754.
+:Q1140265 rdf:type :Organisation ;
+:OrganisationName 'Royal Dramatic Theatre' ;
+:locatedIn :Q298489.
+:Q3578460 rdf:type :Organisation ;
+:OrganisationName 'Västerbottens museum' ;
+:locatedIn :Q25579.
+:Q1235608 rdf:type :Organisation ;
+:OrganisationName 'Paris Diderot University' ;
+:locatedIn :Q90.
+:Q10716418 rdf:type :Organisation ;
+:OrganisationName 'Q10716418' ;
+:locatedIn :Q1754.
+:Q1235608 rdf:type :Organisation ;
+:OrganisationName 'Paris Diderot University' ;
+:locatedIn :Q182872.
+:Q1235608 rdf:type :Organisation ;
+:OrganisationName 'Paris Diderot University' ;
+:locatedIn :Q234735.
+:Q1472511 rdf:type :Organisation ;
+:OrganisationName 'Statistics Sweden' ;
+:locatedIn :Q25732.
+:Q1549932 rdf:type :Organisation ;
+:OrganisationName 'University of the Punjab' ;
+:locatedIn :Q4478.
+:Q12361172 rdf:type :Organisation ;
+:OrganisationName 'Estonian-Swedish Mental Health and Suicidology Institute' ;
+:locatedIn :Q1023563.
+:Q878218 rdf:type :Organisation ;
+:OrganisationName 'Max Planck Institute of Biochemistry' ;
+:locatedIn :Q259230.
+:Q15574 rdf:type :Organisation ;
+:OrganisationName 'University of Adelaide' ;
+:locatedIn :Q56433431.
+:Q15574 rdf:type :Organisation ;
+:OrganisationName 'University of Adelaide' ;
+:locatedIn :Q56433476.
+:Q15574 rdf:type :Organisation ;
+:OrganisationName 'University of Adelaide' ;
+:locatedIn :Q56433517.
+:Q15574 rdf:type :Organisation ;
+:OrganisationName 'University of Adelaide' ;
+:locatedIn :Q56433543.
+:Q1065414 rdf:type :Organisation ;
+:OrganisationName 'Vrije Universiteit Amsterdam' ;
+:locatedIn :Q64063085.
+:Q15574 rdf:type :Organisation ;
+:OrganisationName 'University of Adelaide' ;
+:locatedIn :Q334.
+:Q156725 rdf:type :Organisation ;
+:OrganisationName 'University of Hamburg' ;
+:locatedIn :Q1055.
+:Q5251219 rdf:type :Organisation ;
+:OrganisationName 'Defence Materiel Administration' ;
+:locatedIn :Q1754.
+:Q2000141 rdf:type :Organisation ;
+:OrganisationName 'Norrland's University Hospital' ;
+:locatedIn :Q25579.
+:Q61754201 rdf:type :Organisation ;
+:OrganisationName 'Q61754201' ;
+:locatedIn :Q25287.
+:Q1541450 rdf:type :Organisation ;
+:OrganisationName 'Royal Swedish Academy of Music' ;
+:locatedIn :Q1888208.
+:Q7654818 rdf:type :Organisation ;
+:OrganisationName 'Swedish Post and Telecom Agency' ;
+:locatedIn :Q1754.
+:Q1558586 rdf:type :Organisation ;
+:OrganisationName 'Hanken School of Economics' ;
+:locatedIn :Q2741998.
+:Q593321 rdf:type :Organisation ;
+:OrganisationName 'University of Genoa' ;
+:locatedIn :Q1449.
+:Q58346416 rdf:type :Organisation ;
+:OrganisationName 'Saint Petersburg Mining Institute' ;
+:locatedIn :Q656.
+:Q1421440 rdf:type :Organisation ;
+:OrganisationName 'Fitzwilliam Museum' ;
+:locatedIn :Q350.
+:Q6971083 rdf:type :Organisation ;
+:OrganisationName 'Swedish Board for Study Support' ;
+:locatedIn :Q26476.
+:Q371908 rdf:type :Organisation ;
+:OrganisationName 'Albertina' ;
+:locatedIn :Q126393.
+:Q15576 rdf:type :Organisation ;
+:OrganisationName 'University of South Australia' ;
+:locatedIn :Q327348.
+:Q15576 rdf:type :Organisation ;
+:OrganisationName 'University of South Australia' ;
+:locatedIn :Q6794461.
+:Q15576 rdf:type :Organisation ;
+:OrganisationName 'University of South Australia' ;
+:locatedIn :Q12061437.
+:Q15576 rdf:type :Organisation ;
+:OrganisationName 'University of South Australia' ;
+:locatedIn :Q24190244.
+:Q209344 rdf:type :Organisation ;
+:OrganisationName 'Sapienza University of Rome' ;
+:locatedIn :Q1486.
+:Q209344 rdf:type :Organisation ;
+:OrganisationName 'Sapienza University of Rome' ;
+:locatedIn :Q13395.
+:Q209344 rdf:type :Organisation ;
+:OrganisationName 'Sapienza University of Rome' ;
+:locatedIn :Q13396.
+:Q209344 rdf:type :Organisation ;
+:OrganisationName 'Sapienza University of Rome' ;
+:locatedIn :Q13410.
+:Q209344 rdf:type :Organisation ;
+:OrganisationName 'Sapienza University of Rome' ;
+:locatedIn :Q13413.
+:Q209344 rdf:type :Organisation ;
+:OrganisationName 'Sapienza University of Rome' ;
+:locatedIn :Q13450.
+:Q15576 rdf:type :Organisation ;
+:OrganisationName 'University of South Australia' ;
+:locatedIn :Q5112.
+:Q209344 rdf:type :Organisation ;
+:OrganisationName 'Sapienza University of Rome' ;
+:locatedIn :Q116592.
+:Q209344 rdf:type :Organisation ;
+:OrganisationName 'Sapienza University of Rome' ;
+:locatedIn :Q117382.
+:Q209344 rdf:type :Organisation ;
+:OrganisationName 'Sapienza University of Rome' ;
+:locatedIn :Q128065.
+:Q209344 rdf:type :Organisation ;
+:OrganisationName 'Sapienza University of Rome' ;
+:locatedIn :Q128089.
+:Q209344 rdf:type :Organisation ;
+:OrganisationName 'Sapienza University of Rome' ;
+:locatedIn :Q128226.
+:Q209344 rdf:type :Organisation ;
+:OrganisationName 'Sapienza University of Rome' ;
+:locatedIn :Q221900.
+:Q209344 rdf:type :Organisation ;
+:OrganisationName 'Sapienza University of Rome' ;
+:locatedIn :Q241744.
+:Q209344 rdf:type :Organisation ;
+:OrganisationName 'Sapienza University of Rome' ;
+:locatedIn :Q241791.
+:Q209344 rdf:type :Organisation ;
+:OrganisationName 'Sapienza University of Rome' ;
+:locatedIn :Q242533.
+:Q209344 rdf:type :Organisation ;
+:OrganisationName 'Sapienza University of Rome' ;
+:locatedIn :Q242553.
+:Q209344 rdf:type :Organisation ;
+:OrganisationName 'Sapienza University of Rome' ;
+:locatedIn :Q242710.
+:Q209344 rdf:type :Organisation ;
+:OrganisationName 'Sapienza University of Rome' ;
+:locatedIn :Q243116.
+:Q209344 rdf:type :Organisation ;
+:OrganisationName 'Sapienza University of Rome' ;
+:locatedIn :Q243172.
+:Q209344 rdf:type :Organisation ;
+:OrganisationName 'Sapienza University of Rome' ;
+:locatedIn :Q271411.
+:Q46210 rdf:type :Organisation ;
+:OrganisationName 'University of Milan' ;
+:locatedIn :Q490.
+:Q1506922 rdf:type :Organisation ;
+:OrganisationName 'Gustavianum' ;
+:locatedIn :Q10496093.
+:Q32746 rdf:type :Organisation ;
+:OrganisationName 'National Taiwan University' ;
+:locatedIn :Q1867.
+:Q32746 rdf:type :Organisation ;
+:OrganisationName 'National Taiwan University' ;
+:locatedIn :Q22502.
+:Q845497 rdf:type :Organisation ;
+:OrganisationName 'Lantmäteriet' ;
+:locatedIn :Q25748.
+:Q2413375 rdf:type :Organisation ;
+:OrganisationName 'The Open University' ;
+:locatedIn :Q204234.
+:Q3036648 rdf:type :Organisation ;
+:OrganisationName 'University of Worcester' ;
+:locatedIn :Q1646181.
+:Q3036648 rdf:type :Organisation ;
+:OrganisationName 'University of Worcester' ;
+:locatedIn :Q7593808.
+:Q3036648 rdf:type :Organisation ;
+:OrganisationName 'University of Worcester' ;
+:locatedIn :Q67575442.
+:Q10621662 rdf:type :Organisation ;
+:OrganisationName 'Swedish Patent and Registration Office' ;
+:locatedIn :Q1754.
+:Q1249005 rdf:type :Organisation ;
+:OrganisationName 'University of Dundee' ;
+:locatedIn :Q123709.
+:Q85985187 rdf:type :Organisation ;
+:OrganisationName 'University College London Cancer Institute' ;
+:locatedIn :Q84.
+:Q1567050 rdf:type :Organisation ;
+:OrganisationName 'Hacettepe University' ;
+:locatedIn :Q3640.
+:Q99284810 rdf:type :Organisation ;
+:OrganisationName 'Southern Cross University Coffs Harbour Campus' ;
+:locatedIn :Q604283.
+:Q1247075 rdf:type :Organisation ;
+:OrganisationName 'Uppsala University Coin Cabinet' ;
+:locatedIn :Q25286.
+:Q10274592 rdf:type :Organisation ;
+:OrganisationName 'School of Communications and Arts of the University of São Paulo' ;
+:locatedIn :Q174.
+:Q924551 rdf:type :Organisation ;
+:OrganisationName 'National Library of Norway' ;
+:locatedIn :Q585.
+:Q132478 rdf:type :Organisation ;
+:OrganisationName 'Oxford Brookes University' ;
+:locatedIn :Q3090863.
+:Q10674565 rdf:type :Organisation ;
+:OrganisationName 'Q10674565' ;
+:locatedIn :Q3240427.
+:Q3064716 rdf:type :Organisation ;
+:OrganisationName 'Botaniska trädgården' ;
+:locatedIn :Q2167.
+:Q4585222 rdf:type :Organisation ;
+:OrganisationName 'Swedish Migration Board' ;
+:locatedIn :Q25724.
+:Q7061065 rdf:type :Organisation ;
+:OrganisationName 'Swedish Prison and Probation Service' ;
+:locatedIn :Q25724.
+:Q1333399 rdf:type :Organisation ;
+:OrganisationName 'University of Leicester' ;
+:locatedIn :Q83065.
+:Q1434547 rdf:type :Organisation ;
+:OrganisationName 'Loughborough University' ;
+:locatedIn :Q537323.
+:Q1142544 rdf:type :Organisation ;
+:OrganisationName 'Wellcome Sanger Institute' ;
+:locatedIn :Q7981199.
+:Q838691 rdf:type :Organisation ;
+:OrganisationName 'Muséum national d'histoire naturelle' ;
+:locatedIn :Q90.
+:Q7654780 rdf:type :Organisation ;
+:OrganisationName 'National Financial Management Authority' ;
+:locatedIn :Q1754.
+:Q131454 rdf:type :Organisation ;
+:OrganisationName 'Library of Congress' ;
+:locatedIn :Q54109.
+:Q3551577 rdf:type :Organisation ;
+:OrganisationName 'University of Chichester' ;
+:locatedIn :Q207639.
+:Q10416916 rdf:type :Organisation ;
+:OrganisationName 'Swedish Labour Movement's Archives and Library' ;
+:locatedIn :Q1754.
+:Q489175 rdf:type :Organisation ;
+:OrganisationName 'Västergötland museum' ;
+:locatedIn :Q939389.
+:Q131454 rdf:type :Organisation ;
+:OrganisationName 'Library of Congress' ;
+:locatedIn :Q2337907.
+:Q131454 rdf:type :Organisation ;
+:OrganisationName 'Library of Congress' ;
+:locatedIn :Q2615945.
+:Q131454 rdf:type :Organisation ;
+:OrganisationName 'Library of Congress' ;
+:locatedIn :Q3161243.
+:Q647768 rdf:type :Organisation ;
+:OrganisationName 'Norwegian International Film Festival' ;
+:locatedIn :Q109036.
+:Q15694964 rdf:type :Organisation ;
+:OrganisationName 'Swedish eHealth Agency' ;
+:locatedIn :Q26345.
+:Q540751 rdf:type :Organisation ;
+:OrganisationName 'Anglia Ruskin University' ;
+:locatedIn :Q210985.
+:Q10623228 rdf:type :Organisation ;
+:OrganisationName 'Swedish Pensions Agency' ;
+:locatedIn :Q1754.
+:Q836916 rdf:type :Organisation ;
+:OrganisationName 'Swedish Tax Agency' ;
+:locatedIn :Q10673294.
+:Q772059 rdf:type :Organisation ;
+:OrganisationName 'Max Planck Institute for Human Development' ;
+:locatedIn :Q693628.
+:Q432637 rdf:type :Organisation ;
+:OrganisationName 'George Washington University' ;
+:locatedIn :Q2019662.
+:Q432637 rdf:type :Organisation ;
+:OrganisationName 'George Washington University' ;
+:locatedIn :Q3297936.
+:Q2002619 rdf:type :Organisation ;
+:OrganisationName 'Nottingham Trent University' ;
+:locatedIn :Q41262.
+:Q3440237 rdf:type :Organisation ;
+:OrganisationName 'Swedish Public Employment Service' ;
+:locatedIn :Q1754.
+:Q741082 rdf:type :Organisation ;
+:OrganisationName 'Macquarie University' ;
+:locatedIn :Q8273407.
+:Q1547084 rdf:type :Organisation ;
+:OrganisationName 'University of Twente' ;
+:locatedIn :Q2303437.
+:Q499510 rdf:type :Organisation ;
+:OrganisationName 'University of Liverpool' ;
+:locatedIn :Q4666835.

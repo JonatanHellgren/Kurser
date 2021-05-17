@@ -1,0 +1,84 @@
+:university rdf:type :University ;
+:organisationName 'universityLabel' ;
+:locatedIn :location ;
+:yearFounded 'founded'.
+:Q218506 rdf:type :University ;
+:organisationName 'Lund University' ;
+:locatedIn :Q2167 ;
+:yearFounded '1666-12-19T00:00:00Z'.
+:Q2002420 rdf:type :University ;
+:organisationName 'Örebro University' ;
+:locatedIn :Q25732 ;
+:yearFounded '1977-01-01T00:00:00Z'.
+:Q1972721 rdf:type :University ;
+:organisationName 'Luleå University of Technology' ;
+:locatedIn :Q7230430 ;
+:yearFounded '1971-07-01T00:00:00Z'.
+:Q854280 rdf:type :University ;
+:organisationName 'Royal Institute of Technology' ;
+:locatedIn :Q1754 ;
+:yearFounded '1827-01-01T00:00:00Z'.
+:Q977781 rdf:type :University ;
+:organisationName 'Malmö University' ;
+:locatedIn :Q5242576 ;
+:yearFounded '1998-07-01T00:00:00Z'.
+:Q1751928 rdf:type :University ;
+:organisationName 'Linnaeus University' ;
+:locatedIn :Q26152 ;
+:yearFounded '2010-01-01T00:00:00Z'.
+:Q1751928 rdf:type :University ;
+:organisationName 'Linnaeus University' ;
+:locatedIn :Q26345 ;
+:yearFounded '2010-01-01T00:00:00Z'.
+:Q371522 rdf:type :University ;
+:organisationName 'University of Gothenburg' ;
+:locatedIn :Q25287 ;
+:yearFounded '1954-07-01T00:00:00Z'.
+:Q1858061 rdf:type :University ;
+:organisationName 'Karlstad University' ;
+:locatedIn :Q25457 ;
+:yearFounded '1977-01-01T00:00:00Z'.
+:Q1312762 rdf:type :University ;
+:organisationName 'Swedish University of Agricultural Sciences' ;
+:locatedIn :Q25286 ;
+:yearFounded '1977-01-01T00:00:00Z'.
+:Q221645 rdf:type :University ;
+:organisationName 'Stockholm University' ;
+:locatedIn :Q1754 ;
+:yearFounded '1878-01-01T00:00:00Z'.
+:Q1144565 rdf:type :University ;
+:organisationName 'Umeå University' ;
+:locatedIn :Q25579 ;
+:yearFounded '1965-01-01T00:00:00Z'.
+:Q782600 rdf:type :University ;
+:organisationName 'Linköping University' ;
+:locatedIn :Q25413 ;
+:yearFounded '1975-01-01T00:00:00Z'.
+:Q1972721 rdf:type :University ;
+:organisationName 'Luleå University of Technology' ;
+:locatedIn :Q26268 ;
+:yearFounded '1971-07-01T00:00:00Z'.
+:Q219564 rdf:type :University ;
+:organisationName 'Karolinska Institute' ;
+:locatedIn :Q1754 ;
+:yearFounded '1810-01-01T00:00:00Z'.
+:Q977781 rdf:type :University ;
+:organisationName 'Malmö University' ;
+:locatedIn :Q2211 ;
+:yearFounded '1998-07-01T00:00:00Z'.
+:Q1940803 rdf:type :University ;
+:organisationName 'Mid Sweden University' ;
+:locatedIn :Q26476 ;
+:yearFounded '1993-01-01T00:00:00Z'.
+:Q1940803 rdf:type :University ;
+:organisationName 'Mid Sweden University' ;
+:locatedIn :Q26515 ;
+:yearFounded '1993-01-01T00:00:00Z'.
+:Q836805 rdf:type :University ;
+:organisationName 'Chalmers University of Technology' ;
+:locatedIn :Q25287 ;
+:yearFounded '1829-01-01T00:00:00Z'.
+:Q185246 rdf:type :University ;
+:organisationName 'Uppsala University' ;
+:locatedIn :Q25286 ;
+:yearFounded '1477-01-01T00:00:00Z'.
