@@ -1,0 +1,9 @@
+SELECT DISTINCT ?person ?personLabel ?universityLabel ?organisationLabel  WHERE {
+  ?university wdt:P31 wd:Q3918;
+              wdt:P17 wd:Q34.
+  ?person wdt:P69 ?university;
+          wdt:P108 ?organisation.
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "en" .
+  }
+ }

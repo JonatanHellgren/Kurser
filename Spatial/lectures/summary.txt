@@ -1,0 +1,62 @@
+1. Introduction
+    Filters - Performs transformations on the image
+    Segmentation - splits the data up into different categories 
+        Esiest way to segment is to use the histogram and choose thresholds
+
+2. Spatial random process
+    {x(s) : s  👉 S}, is a realization of a random process
+        Observations are not independent samples, due to spatial dependancies
+    Spatial random process can be characterised by mean and covariance
+    Stationary and isotropy definitions
+    Isotropic - circularly symmetric
+    stationary - invariant under translation (same at every location)
+    Process statonary and Isotropic get easier correlation function
+    Semivariogram - used in geostatistics instead of cov
+    Nugget effect - discontinuity at the origin
+    Matern correlation - flexible correlation function,
+        mix between exponential and gaussian
+    Simulation of Gaussian spatial random process
+    Differentiability for matern
+    kriging - estimation of unobserved values
+        need to estimate /beta (parameters), /Theta (cov) and /sigma_e^2 
+
+3. OLS, GLS, ML estimations
+    To estimate parameters for kriging model we can use one of these estimators
+    Use residuals for godness-of-fit
+
+4. Gaussian Markov random fields, LDA, QDA, image moments
+    Kriging scales O(N^2)
+    gmrf uses a sparse triangular matrix instead to scale better with increasing n
+    Optimal discrimination
+    Discriminant analysis
+    Moment features
+        central moments, hu moments
+
+5. K-fold cross validation, m-nearest neighbors, SVM, neural networks
+    Basically covering supervised methods for image segmentation
+    
+6. Image segmentation, Gaussian mixture models, k-means,
+   morphological operations, feature extraction
+    Covering unsupervised methods for image segmentation
+    EM algorithm
+    Relative colors helps GMM segmentation
+    morphological operations on binary images
+        - Erosion
+        - Dilation
+        - Opening
+        - Closing
+
+7. Markov random fields
+    Begins with definition of mrf,
+    then continues with ising model
+    Autonormal MRF model
+    monte carlo markov chain
+    Baysian methods
+    Gibbs sampling
+    Metropolis-Hasting algorithm
+
+8. Point process analysis
+    
+
+
+

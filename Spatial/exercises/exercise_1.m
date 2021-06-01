@@ -31,7 +31,7 @@ imagesc(x)
 axis image
 
 subplot(2,1,2)
-imagesc(x(:,:,[2,3,1]))
+imagesc(x(:,:,[2,1,3]))
 axis image
 %% Coverting to grayscale
 clf
@@ -58,6 +58,11 @@ subplot(2,2,4)
 imshow(x)
 %%
 clf
+subplot(2,1,1)
+imagesc(x)
+axis image
+
+subplot(2,1,2)
 xsum = sum(x,3);
 xrel = x ./ xsum;
 xrel(isnan(xrel)) = 0;
